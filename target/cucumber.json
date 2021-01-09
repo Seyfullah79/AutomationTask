@@ -1,0 +1,574 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-09T17:45:40.470Z",
+        "line": 33,
+        "name": "3 Digits Function Tests 036",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3814000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"036\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"036\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"0DM1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
+              "duration": 6535000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "the list should contain \"0DM1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0DM1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:40.932Z",
+        "line": 34,
+        "name": "3 Digits Function Tests 189",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1660000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"189\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"189\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"1UZ1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
+              "duration": 3201000,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "the list should contain \"1UZ1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1UZ1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:40.990Z",
+        "line": 35,
+        "name": "3 Digits Function Tests 255",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3252000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"255\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"255\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8741000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"BJK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BJK\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.058Z",
+        "line": 36,
+        "name": "3 Digits Function Tests 379",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5363000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"379\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"379\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27312000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"ERX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ERX\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.135Z",
+        "line": 37,
+        "name": "3 Digits Function Tests 404",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1636000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"404\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1020000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"G0H\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"G0H\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.149Z",
+        "line": 38,
+        "name": "3 Digits Function Tests 592",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1748000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"592\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"592\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1420000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"KXB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KXB\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.214Z",
+        "line": 39,
+        "name": "3 Digits Function Tests 677",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2023000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"677\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"677\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1942000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"OPR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OPR\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.265Z",
+        "line": 40,
+        "name": "3 Digits Function Tests 718",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1378000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"718\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"718\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 944000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"S1T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"S1T\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.315Z",
+        "line": 41,
+        "name": "3 Digits Function Tests 836",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1857000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"836\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"836\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1455000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"TEN\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TEN\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T17:45:41.350Z",
+        "line": 42,
+        "name": "3 Digits Function Tests 999",
+        "description": "",
+        "id": "more-than-two-digits-test;3-digits-function-tests-\u003cinputdigits\u003e;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3119000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user enters digit numbers \"999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"999\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4858000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the list should contain \"XYZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"XYZ\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@moreThanTwo"
+          },
+          {
+            "name": "@DDT3"
+          }
+        ]
+      }
+    ],
+    "name": "More than two digits test",
+    "description": "",
+    "id": "more-than-two-digits-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/moreThanTwo.feature",
+    "tags": [
+      {
+        "name": "@moreThanTwo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
