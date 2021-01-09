@@ -1,4 +1,4 @@
-package runners;
+package dto.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -10,10 +10,10 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "step_definitions",
+        glue = "dto/step_definitions",
         strict = true,
         dryRun = false,
-        tags = "@DDT3"
+        tags = "@TestAll"
 )
 
 public class CukesRunner {

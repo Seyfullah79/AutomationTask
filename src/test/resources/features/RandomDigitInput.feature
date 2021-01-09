@@ -1,5 +1,5 @@
 
-@randomDigitInput @high
+@TestAll @randomDigitInput @high
 Feature: DialPad
 
   @digit_1length

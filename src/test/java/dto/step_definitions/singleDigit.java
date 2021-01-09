@@ -1,4 +1,4 @@
-package step_definitions;
+package dto.step_definitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import static step_definitions.TelephoneDialPad.*;
+import static dto.step_definitions.TelephoneDialPad.*;
 
 public class singleDigit {
 

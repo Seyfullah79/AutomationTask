@@ -1,4 +1,4 @@
-@moreThanTwo
+@TestAll  @moreThanTwo
 Feature: More than two digits test
 
   @FourDigit @medium

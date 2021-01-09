@@ -1,4 +1,4 @@
-@DDAll @high
+@TestAll   @DDAll @high
 
 Feature: Double Digit Function Test
 

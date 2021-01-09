@@ -1,4 +1,4 @@
-package step_definitions;
+package dto.step_definitions;
 import java.util.LinkedList;
 import java.util.List;
 

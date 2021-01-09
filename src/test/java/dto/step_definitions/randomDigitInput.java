@@ -1,10 +1,10 @@
-package step_definitions;
+package dto.step_definitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import java.util.List;
-import static step_definitions.TelephoneDialPad.*;
+import static dto.step_definitions.TelephoneDialPad.*;
 
 public class randomDigitInput {
 

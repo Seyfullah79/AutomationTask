@@ -1,4 +1,4 @@
-package step_definitions;
+package dto.step_definitions;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
