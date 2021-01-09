@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: dto.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in dto.runners.FailedTestRunner
+3 Digits Function Tests 036(More than two digits test)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError
+
+3 Digits Function Tests 189(More than two digits test)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError
+

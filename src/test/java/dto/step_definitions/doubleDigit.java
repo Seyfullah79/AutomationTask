@@ -25,7 +25,7 @@ public class doubleDigit {
     public void the_user_should_see_expected_List_for_the_double_digit(Map<String, String> map) {
 
         List<String> expectedList = new LinkedList<>();
-
+// comment
         for (int i = 1; i <= map.size(); i++) {
             String str1 = map.get("list"+i);
             if (str1!= null) expectedList.add(str1);

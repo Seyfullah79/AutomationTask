@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dto.runners.CukesRunner" time="13.07" tests="95" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/seyfullahklnc/Desktop/AutomationTask/target/test-classes:/Users/seyfullahklnc/Desktop/AutomationTask/target/classes:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/seyfullahklnc/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/seyfullahklnc/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/seyfullahklnc/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/seyfullahklnc/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/seyfullahklnc/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/seyfullahklnc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/seyfullahklnc/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/seyfullahklnc/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/seyfullahklnc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/seyfullahklnc/.m2/repository/com/opencsv/opencsv/5.3/opencsv-5.3.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/seyfullahklnc/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/seyfullahklnc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/seyfullahklnc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/seyfullahklnc/Desktop/AutomationTask/target/surefire/surefirebooter11247887789902045739.jar /Users/seyfullahklnc/Desktop/AutomationTask/target/surefire 2021-01-09T20-30-22_500-jvmRun1 surefire9683146187747604324tmp surefire_01849160129887013273tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/seyfullahklnc/Desktop/AutomationTask/target/test-classes:/Users/seyfullahklnc/Desktop/AutomationTask/target/classes:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/seyfullahklnc/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/seyfullahklnc/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/seyfullahklnc/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/seyfullahklnc/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/seyfullahklnc/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/seyfullahklnc/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/seyfullahklnc/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/seyfullahklnc/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/seyfullahklnc/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-java/5.7.0/cucumber-java-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-core/5.7.0/cucumber-core-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-gherkin/5.7.0/cucumber-gherkin-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-gherkin-vintage/5.7.0/cucumber-gherkin-vintage-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/tag-expressions/2.0.4/tag-expressions-2.0.4.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-expressions/8.3.1/cucumber-expressions-8.3.1.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/datatable/3.3.1/datatable-3.3.1.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-plugin/5.7.0/cucumber-plugin-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/docstring/5.7.0/docstring-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/seyfullahklnc/.m2/repository/io/cucumber/cucumber-junit/5.7.0/cucumber-junit-5.7.0.jar:/Users/seyfullahklnc/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/seyfullahklnc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/seyfullahklnc/.m2/repository/com/opencsv/opencsv/5.3/opencsv-5.3.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar:/Users/seyfullahklnc/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/seyfullahklnc/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/seyfullahklnc/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/seyfullahklnc/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/seyfullahklnc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/seyfullahklnc/Desktop/AutomationTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/seyfullahklnc/Desktop/AutomationTask/target/surefire/surefirebooter11247887789902045739.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+14"/>
+    <property name="user.name" value="seyfullahklnc"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/seyfullahklnc/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/kc/2vt1tyc53jx7vbdscmg_mbpm0000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/seyfullahklnc/Desktop/AutomationTask"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/seyfullahklnc/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="14.0.1+14"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="one digit" classname="DialPad" time="0.715"/>
+  <testcase name="double digit" classname="DialPad" time="0.053"/>
+  <testcase name="try one valid single digit &quot;01&quot;" classname="Double Digit Function Test" time="0.488"/>
+  <testcase name="try one valid single digit &quot;02&quot;" classname="Double Digit Function Test" time="0.095"/>
+  <testcase name="try one valid single digit &quot;03&quot;" classname="Double Digit Function Test" time="0.048"/>
+  <testcase name="try one valid single digit &quot;10&quot;" classname="Double Digit Function Test" time="0.037"/>
+  <testcase name="try one valid single digit &quot;11&quot;" classname="Double Digit Function Test" time="0.071"/>
+  <testcase name="try one valid single digit &quot;12&quot;" classname="Double Digit Function Test" time="0.04"/>
+  <testcase name="try one valid single digit &quot;19&quot;" classname="Double Digit Function Test" time="0.081"/>
+  <testcase name="try one valid single digit &quot;23&quot;" classname="Double Digit Function Test" time="0.027"/>
+  <testcase name="try one valid single digit &quot;24&quot;" classname="Double Digit Function Test" time="0.037"/>
+  <testcase name="try one valid single digit &quot;25&quot;" classname="Double Digit Function Test" time="0.046"/>
+  <testcase name="try one valid single digit &quot;37&quot;" classname="Double Digit Function Test" time="0.026"/>
+  <testcase name="try one valid single digit &quot;38&quot;" classname="Double Digit Function Test" time="0.036"/>
+  <testcase name="try one valid single digit &quot;39&quot;" classname="Double Digit Function Test" time="0.062"/>
+  <testcase name="try one valid single digit &quot;40&quot;" classname="Double Digit Function Test" time="0.063"/>
+  <testcase name="try one valid single digit &quot;43&quot;" classname="Double Digit Function Test" time="0.033"/>
+  <testcase name="try one valid single digit &quot;49&quot;" classname="Double Digit Function Test" time="0.08"/>
+  <testcase name="try one valid single digit &quot;50&quot;" classname="Double Digit Function Test" time="0.023"/>
+  <testcase name="try one valid single digit &quot;51&quot;" classname="Double Digit Function Test" time="0.05"/>
+  <testcase name="try one valid single digit &quot;57&quot;" classname="Double Digit Function Test" time="0.026"/>
+  <testcase name="try one valid single digit &quot;61&quot;" classname="Double Digit Function Test" time="0.051"/>
+  <testcase name="try one valid single digit &quot;66&quot;" classname="Double Digit Function Test" time="0.082"/>
+  <testcase name="try one valid single digit &quot;67&quot;" classname="Double Digit Function Test" time="0.036"/>
+  <testcase name="try one valid single digit &quot;70&quot;" classname="Double Digit Function Test" time="0.086"/>
+  <testcase name="try one valid single digit &quot;74&quot;" classname="Double Digit Function Test" time="0.014"/>
+  <testcase name="try one valid single digit &quot;79&quot;" classname="Double Digit Function Test" time="0.035"/>
+  <testcase name="try one valid single digit &quot;82&quot;" classname="Double Digit Function Test" time="0.054"/>
+  <testcase name="try one valid single digit &quot;83&quot;" classname="Double Digit Function Test" time="0.032"/>
+  <testcase name="try one valid single digit &quot;86&quot;" classname="Double Digit Function Test" time="0.006"/>
+  <testcase name="try one valid single digit &quot;96&quot;" classname="Double Digit Function Test" time="0.008"/>
+  <testcase name="try one valid single digit &quot;97&quot;" classname="Double Digit Function Test" time="0.053"/>
+  <testcase name="try one valid single digit &quot;99&quot;" classname="Double Digit Function Test" time="0.066"/>
+  <testcase name="try one specific double digit" classname="Double Digit Function Test" time="0.039"/>
+  <testcase name="try one specific double digit" classname="Double Digit Function Test" time="0.027"/>
+  <testcase name="try one specific double digit" classname="Double Digit Function Test" time="0.059"/>
+  <testcase name="four digits test &quot;6637&quot;" classname="More than two digits test" time="0.072"/>
+  <testcase name="five digits test &quot;01987&quot;" classname="More than two digits test" time="0.057"/>
+  <testcase name="six digits test &quot;845326&quot;" classname="More than two digits test" time="0.025"/>
+  <testcase name="seven digits test &quot;7377328&quot;" classname="More than two digits test" time="0.783"/>
+  <testcase name="3 Digits Function Tests 036" classname="More than two digits test" time="0.002">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[inputDigit = 036
+actualList = [0DM, 0DN, 0DO, 0EM, 0EN, 0EO, 0FM, 0FN, 0FO]
+expectedCombination = 0DM1
+]]></system-out>
+  </testcase>
+  <testcase name="3 Digits Function Tests 189" classname="More than two digits test" time="0">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[inputDigit = 189
+actualList = [1TW, 1TX, 1TY, 1TZ, 1UW, 1UX, 1UY, 1UZ, 1VW, 1VX, 1VY, 1VZ]
+expectedCombination = 1UZ1
+]]></system-out>
+  </testcase>
+  <testcase name="3 Digits Function Tests 255" classname="More than two digits test" time="0.001"/>
+  <testcase name="3 Digits Function Tests 379" classname="More than two digits test" time="0.001"/>
+  <testcase name="3 Digits Function Tests 404" classname="More than two digits test" time="0"/>
+  <testcase name="3 Digits Function Tests 592" classname="More than two digits test" time="0.004"/>
+  <testcase name="3 Digits Function Tests 677" classname="More than two digits test" time="0.002"/>
+  <testcase name="3 Digits Function Tests 718" classname="More than two digits test" time="0"/>
+  <testcase name="3 Digits Function Tests 836" classname="More than two digits test" time="0.001"/>
+  <testcase name="3 Digits Function Tests 999" classname="More than two digits test" time="0.001"/>
+  <testcase name="4 Digits Function Tests 0361" classname="More than two digits test" time="0.001"/>
+  <testcase name="4 Digits Function Tests 1892" classname="More than two digits test" time="0.001"/>
+  <testcase name="4 Digits Function Tests 2553" classname="More than two digits test" time="0.003"/>
+  <testcase name="4 Digits Function Tests 3794" classname="More than two digits test" time="0.023"/>
+  <testcase name="4 Digits Function Tests 4045" classname="More than two digits test" time="0.007"/>
+  <testcase name="4 Digits Function Tests 5926" classname="More than two digits test" time="0.009"/>
+  <testcase name="4 Digits Function Tests 6777" classname="More than two digits test" time="0.004"/>
+  <testcase name="4 Digits Function Tests 7188" classname="More than two digits test" time="0.001"/>
+  <testcase name="4 Digits Function Tests 8369" classname="More than two digits test" time="0.002"/>
+  <testcase name="4 Digits Function Tests 9990" classname="More than two digits test" time="0.035"/>
+  <testcase name="5 Digits Function Tests 03619" classname="More than two digits test" time="0.001"/>
+  <testcase name="5 Digits Function Tests 18928" classname="More than two digits test" time="0.03"/>
+  <testcase name="5 Digits Function Tests 25537" classname="More than two digits test" time="0.039"/>
+  <testcase name="5 Digits Function Tests 37946" classname="More than two digits test" time="0.023"/>
+  <testcase name="5 Digits Function Tests 40455" classname="More than two digits test" time="0.003"/>
+  <testcase name="5 Digits Function Tests 59264" classname="More than two digits test" time="0.016"/>
+  <testcase name="5 Digits Function Tests 67773" classname="More than two digits test" time="0.021"/>
+  <testcase name="5 Digits Function Tests 71882" classname="More than two digits test" time="0.037"/>
+  <testcase name="5 Digits Function Tests 83691" classname="More than two digits test" time="0.029"/>
+  <testcase name="5 Digits Function Tests 99900" classname="More than two digits test" time="0.001"/>
+  <testcase name="6 Digits Function Tests 123456" classname="More than two digits test" time="0.007"/>
+  <testcase name="6 Digits Function Tests 987654" classname="More than two digits test" time="0.132"/>
+  <testcase name="6 Digits Function Tests 543210" classname="More than two digits test" time="0.05"/>
+  <testcase name="6 Digits Function Tests 456123" classname="More than two digits test" time="0.006"/>
+  <testcase name="6 Digits Function Tests 135791" classname="More than two digits test" time="0.004"/>
+  <testcase name="6 Digits Function Tests 024688" classname="More than two digits test" time="0.011"/>
+  <testcase name="6 Digits Function Tests 677731" classname="More than two digits test" time="0.034"/>
+  <testcase name="6 Digits Function Tests 718820" classname="More than two digits test" time="0.031"/>
+  <testcase name="6 Digits Function Tests 836919" classname="More than two digits test" time="0.023"/>
+  <testcase name="6 Digits Function Tests 999003" classname="More than two digits test" time="0.05"/>
+  <testcase name="Name Tests 8242428" classname="More than two digits test" time="0.378"/>
+  <testcase name="Name Tests 342632" classname="More than two digits test" time="0.112"/>
+  <testcase name="Name Tests 739385524" classname="More than two digits test" time="6.623"/>
+  <testcase name="Name Tests 545462" classname="More than two digits test" time="0.078"/>
+  <testcase name="try one valid single digit 0" classname="Single Digit Function Test" time="0"/>
+  <testcase name="try one valid single digit 1" classname="Single Digit Function Test" time="0"/>
+  <testcase name="try one valid single digit 2" classname="Single Digit Function Test" time="0.001"/>
+  <testcase name="try one valid single digit 3" classname="Single Digit Function Test" time="0.006"/>
+  <testcase name="try one valid single digit 4" classname="Single Digit Function Test" time="0"/>
+  <testcase name="try one valid single digit 5" classname="Single Digit Function Test" time="0.001"/>
+  <testcase name="try one valid single digit 6" classname="Single Digit Function Test" time="0"/>
+  <testcase name="try one valid single digit 7" classname="Single Digit Function Test" time="0.001"/>
+  <testcase name="try one valid single digit 8" classname="Single Digit Function Test" time="0"/>
+  <testcase name="try one valid single digit 9" classname="Single Digit Function Test" time="0.001"/>
+  <testcase name="try one specific single digit" classname="Single Digit Function Test" time="0"/>
+</testsuite>
