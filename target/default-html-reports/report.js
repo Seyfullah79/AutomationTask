@@ -1,99 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/RandomDigitInput.feature");
-formatter.feature({
-  "name": "Random one and two digits test",
-  "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@TestSuit"
-    },
-    {
-      "name": "@RD"
-    },
-    {
-      "name": "@high"
-    }
-  ]
-});
-formatter.scenario({
-  "name": "one digit",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@TestSuit"
-    },
-    {
-      "name": "@RD"
-    },
-    {
-      "name": "@high"
-    },
-    {
-      "name": "@digit_1length"
-    }
-  ]
-});
-formatter.step({
-  "name": "random digit number \"1\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "dto.step_definitions.randomDigitInput.random_digit_number(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "expectedList and actualList should be same",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "double digit",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@TestSuit"
-    },
-    {
-      "name": "@RD"
-    },
-    {
-      "name": "@high"
-    },
-    {
-      "name": "@digit_2length"
-    }
-  ]
-});
-formatter.step({
-  "name": "random digit number \"2\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "dto.step_definitions.randomDigitInput.random_digit_number(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "expectedList and actualList should be same",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/features/doubleDigit.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/doubleDigit.feature");
 formatter.feature({
   "name": "Double Digit Function Test",
   "description": "",
@@ -121,7 +26,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"\u003cstr\u003e\"",
+  "name": "the user enters digit number \"\u003cstr\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -925,11 +830,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"01\"",
+  "name": "the user enters digit number \"01\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -957,7 +862,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -982,11 +887,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"02\"",
+  "name": "the user enters digit number \"02\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1014,7 +919,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1039,11 +944,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"03\"",
+  "name": "the user enters digit number \"03\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1071,7 +976,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1096,11 +1001,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"10\"",
+  "name": "the user enters digit number \"10\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1128,7 +1033,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1153,11 +1058,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"11\"",
+  "name": "the user enters digit number \"11\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1185,7 +1090,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1210,11 +1115,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"12\"",
+  "name": "the user enters digit number \"12\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1242,7 +1147,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1267,11 +1172,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"19\"",
+  "name": "the user enters digit number \"19\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1299,7 +1204,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1324,11 +1229,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"23\"",
+  "name": "the user enters digit number \"23\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1356,7 +1261,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1381,11 +1286,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"24\"",
+  "name": "the user enters digit number \"24\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1413,7 +1318,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1438,11 +1343,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"25\"",
+  "name": "the user enters digit number \"25\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1470,7 +1375,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1495,11 +1400,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"37\"",
+  "name": "the user enters digit number \"37\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1527,7 +1432,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1552,11 +1457,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"38\"",
+  "name": "the user enters digit number \"38\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1584,7 +1489,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1609,11 +1514,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"39\"",
+  "name": "the user enters digit number \"39\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1641,7 +1546,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1666,11 +1571,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"40\"",
+  "name": "the user enters digit number \"40\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1698,7 +1603,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1723,11 +1628,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"43\"",
+  "name": "the user enters digit number \"43\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1755,7 +1660,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1780,11 +1685,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"49\"",
+  "name": "the user enters digit number \"49\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1812,7 +1717,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1837,11 +1742,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"50\"",
+  "name": "the user enters digit number \"50\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1869,7 +1774,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1894,11 +1799,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"51\"",
+  "name": "the user enters digit number \"51\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1926,7 +1831,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -1951,11 +1856,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"57\"",
+  "name": "the user enters digit number \"57\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -1983,7 +1888,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2008,11 +1913,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"61\"",
+  "name": "the user enters digit number \"61\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2040,7 +1945,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2065,11 +1970,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"66\"",
+  "name": "the user enters digit number \"66\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2097,7 +2002,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2122,11 +2027,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"67\"",
+  "name": "the user enters digit number \"67\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2154,7 +2059,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2179,11 +2084,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"70\"",
+  "name": "the user enters digit number \"70\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2211,7 +2116,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2236,11 +2141,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"74\"",
+  "name": "the user enters digit number \"74\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2268,7 +2173,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2293,11 +2198,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"79\"",
+  "name": "the user enters digit number \"79\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2325,7 +2230,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2350,11 +2255,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"82\"",
+  "name": "the user enters digit number \"82\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2382,7 +2287,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2407,11 +2312,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"83\"",
+  "name": "the user enters digit number \"83\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2439,7 +2344,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2464,11 +2369,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"86\"",
+  "name": "the user enters digit number \"86\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2496,7 +2401,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2521,11 +2426,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"96\"",
+  "name": "the user enters digit number \"96\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2553,7 +2458,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2578,11 +2483,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"97\"",
+  "name": "the user enters digit number \"97\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2610,7 +2515,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2635,11 +2540,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"99\"",
+  "name": "the user enters digit number \"99\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2667,7 +2572,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List_for_the_double_digit(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2692,11 +2597,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"86\"",
+  "name": "the user enters digit number \"86\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2717,7 +2622,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2742,11 +2647,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"93\"",
+  "name": "the user enters digit number \"93\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2770,7 +2675,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2795,11 +2700,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters double digit number \"37\"",
+  "name": "the user enters digit number \"37\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_enters_double_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2823,7 +2728,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.doubleDigit.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -2862,11 +2767,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"6637\"",
+  "name": "the user enters digit number \"6637\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2876,7 +2781,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2901,11 +2806,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"01987\"",
+  "name": "the user enters digit number \"01987\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2915,7 +2820,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2940,11 +2845,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"845326\"",
+  "name": "the user enters digit number \"845326\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2954,7 +2859,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2979,11 +2884,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"7377328\"",
+  "name": "the user enters digit number \"7377328\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -2993,7 +2898,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3012,7 +2917,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"\u003cinputDigits\u003e\"",
+  "name": "the user enters digit number \"\u003cinputDigits\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -3112,11 +3017,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"036\"",
+  "name": "the user enters digit number \"036\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3126,7 +3031,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3151,11 +3056,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"189\"",
+  "name": "the user enters digit number \"189\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3165,7 +3070,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3190,11 +3095,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"255\"",
+  "name": "the user enters digit number \"255\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3204,7 +3109,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3229,11 +3134,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"379\"",
+  "name": "the user enters digit number \"379\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3243,7 +3148,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3268,11 +3173,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"404\"",
+  "name": "the user enters digit number \"404\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3282,7 +3187,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3307,11 +3212,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"592\"",
+  "name": "the user enters digit number \"592\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3321,7 +3226,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3346,11 +3251,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"677\"",
+  "name": "the user enters digit number \"677\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3360,7 +3265,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3385,11 +3290,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"718\"",
+  "name": "the user enters digit number \"718\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3399,7 +3304,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3424,11 +3329,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"836\"",
+  "name": "the user enters digit number \"836\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3438,7 +3343,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3463,11 +3368,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"999\"",
+  "name": "the user enters digit number \"999\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3477,7 +3382,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3496,7 +3401,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"\u003cinputDigits\u003e\"",
+  "name": "the user enters digit number \"\u003cinputDigits\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -3596,11 +3501,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"0361\"",
+  "name": "the user enters digit number \"0361\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3610,7 +3515,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3635,11 +3540,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"1892\"",
+  "name": "the user enters digit number \"1892\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3649,7 +3554,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3674,11 +3579,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"2553\"",
+  "name": "the user enters digit number \"2553\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3688,7 +3593,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3713,11 +3618,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"3794\"",
+  "name": "the user enters digit number \"3794\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3727,7 +3632,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3752,11 +3657,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"4045\"",
+  "name": "the user enters digit number \"4045\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3766,7 +3671,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3791,11 +3696,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"5926\"",
+  "name": "the user enters digit number \"5926\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3805,7 +3710,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3830,11 +3735,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"6777\"",
+  "name": "the user enters digit number \"6777\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3844,7 +3749,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3869,11 +3774,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"7188\"",
+  "name": "the user enters digit number \"7188\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3883,7 +3788,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3908,11 +3813,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"8369\"",
+  "name": "the user enters digit number \"8369\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3922,7 +3827,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3947,11 +3852,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"9990\"",
+  "name": "the user enters digit number \"9990\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3961,7 +3866,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -3980,7 +3885,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"\u003cinputDigits\u003e\"",
+  "name": "the user enters digit number \"\u003cinputDigits\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -4080,11 +3985,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"03619\"",
+  "name": "the user enters digit number \"03619\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4094,7 +3999,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4119,11 +4024,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"18928\"",
+  "name": "the user enters digit number \"18928\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4133,7 +4038,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4158,11 +4063,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"25537\"",
+  "name": "the user enters digit number \"25537\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4172,7 +4077,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4197,11 +4102,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"37946\"",
+  "name": "the user enters digit number \"37946\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4211,7 +4116,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4236,11 +4141,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"40455\"",
+  "name": "the user enters digit number \"40455\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4250,7 +4155,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4275,11 +4180,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"59264\"",
+  "name": "the user enters digit number \"59264\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4289,7 +4194,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4314,11 +4219,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"67773\"",
+  "name": "the user enters digit number \"67773\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4328,7 +4233,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4353,11 +4258,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"71882\"",
+  "name": "the user enters digit number \"71882\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4367,7 +4272,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4392,11 +4297,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"83691\"",
+  "name": "the user enters digit number \"83691\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4406,7 +4311,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4431,11 +4336,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"99900\"",
+  "name": "the user enters digit number \"99900\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4445,7 +4350,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4464,7 +4369,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"\u003cinputDigits\u003e\"",
+  "name": "the user enters digit number \"\u003cinputDigits\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -4564,11 +4469,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"123456\"",
+  "name": "the user enters digit number \"123456\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4578,7 +4483,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4603,11 +4508,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"987654\"",
+  "name": "the user enters digit number \"987654\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4617,7 +4522,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4642,11 +4547,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"543210\"",
+  "name": "the user enters digit number \"543210\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4656,7 +4561,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4681,11 +4586,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"456123\"",
+  "name": "the user enters digit number \"456123\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4695,7 +4600,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4720,11 +4625,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"135791\"",
+  "name": "the user enters digit number \"135791\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4734,7 +4639,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4759,11 +4664,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"024688\"",
+  "name": "the user enters digit number \"024688\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4773,7 +4678,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4798,11 +4703,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"677731\"",
+  "name": "the user enters digit number \"677731\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4812,7 +4717,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4837,11 +4742,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"718820\"",
+  "name": "the user enters digit number \"718820\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4851,7 +4756,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4876,11 +4781,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"836919\"",
+  "name": "the user enters digit number \"836919\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4890,7 +4795,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4915,11 +4820,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"999003\"",
+  "name": "the user enters digit number \"999003\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4929,7 +4834,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -4948,7 +4853,7 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"\u003cinputDigits\u003e\"",
+  "name": "the user enters digit number \"\u003cinputDigits\u003e\"",
   "keyword": "When "
 });
 formatter.step({
@@ -5012,11 +4917,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"8242428\"",
+  "name": "the user enters digit number \"8242428\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5026,7 +4931,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5051,11 +4956,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"342632\"",
+  "name": "the user enters digit number \"342632\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5065,7 +4970,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5090,11 +4995,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"739385524\"",
+  "name": "the user enters digit number \"739385524\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5104,7 +5009,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5129,11 +5034,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters digit numbers \"545462\"",
+  "name": "the user enters digit number \"545462\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_user_enters_digit_numbers(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5143,7 +5048,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5182,21 +5087,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"0\"",
+  "name": "the user enters digit number \"0\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"A\"",
+  "name": "list should not contain \"A\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5215,11 +5120,11 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "digit number \"\u003cdigitNumber\u003e\"",
+  "name": "the user enters digit number \"\u003cdigitNumber\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "name": "List length should not contain \"\u003cunexpectedResult\u003e\"",
+  "name": "list should not contain \"\u003cunexpectedResult\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
@@ -5363,21 +5268,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"0\"",
+  "name": "the user enters digit number \"0\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"1\"",
+  "name": "list should not contain \"1\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5402,21 +5307,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"1\"",
+  "name": "the user enters digit number \"1\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"A\"",
+  "name": "list should not contain \"A\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5441,21 +5346,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"1\"",
+  "name": "the user enters digit number \"1\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"0\"",
+  "name": "list should not contain \"0\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5480,21 +5385,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"2\"",
+  "name": "the user enters digit number \"2\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"D\"",
+  "name": "list should not contain \"D\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5519,21 +5424,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"3\"",
+  "name": "the user enters digit number \"3\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"C\"",
+  "name": "list should not contain \"C\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5558,21 +5463,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"3\"",
+  "name": "the user enters digit number \"3\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"G\"",
+  "name": "list should not contain \"G\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5597,21 +5502,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"4\"",
+  "name": "the user enters digit number \"4\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"F\"",
+  "name": "list should not contain \"F\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5636,21 +5541,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"4\"",
+  "name": "the user enters digit number \"4\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"J\"",
+  "name": "list should not contain \"J\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5675,21 +5580,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"5\"",
+  "name": "the user enters digit number \"5\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"I\"",
+  "name": "list should not contain \"I\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5714,21 +5619,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"5\"",
+  "name": "the user enters digit number \"5\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"M\"",
+  "name": "list should not contain \"M\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5753,21 +5658,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"6\"",
+  "name": "the user enters digit number \"6\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"L\"",
+  "name": "list should not contain \"L\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5792,21 +5697,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"6\"",
+  "name": "the user enters digit number \"6\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"P\"",
+  "name": "list should not contain \"P\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5831,21 +5736,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"7\"",
+  "name": "the user enters digit number \"7\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"O\"",
+  "name": "list should not contain \"O\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5870,21 +5775,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"7\"",
+  "name": "the user enters digit number \"7\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"T\"",
+  "name": "list should not contain \"T\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5909,21 +5814,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"8\"",
+  "name": "the user enters digit number \"8\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"S\"",
+  "name": "list should not contain \"S\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5948,21 +5853,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"8\"",
+  "name": "the user enters digit number \"8\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"W\"",
+  "name": "list should not contain \"W\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -5987,21 +5892,21 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"9\"",
+  "name": "the user enters digit number \"9\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"V\"",
+  "name": "list should not contain \"V\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6026,21 +5931,116 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "digit number \"9\"",
+  "name": "the user enters digit number \"9\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "List length should not contain \"0\"",
+  "name": "list should not contain \"0\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.list_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.uri("file:src/test/resources/features/randomDigit.feature");
+formatter.feature({
+  "name": "Random one and two digits test",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@RD"
+    },
+    {
+      "name": "@high"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "one digit",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@RD"
+    },
+    {
+      "name": "@high"
+    },
+    {
+      "name": "@digit_1length"
+    }
+  ]
+});
+formatter.step({
+  "name": "random digit number \"1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.randomDigitInput.random_digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "expectedList and actualList should be same",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "double digit",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@RD"
+    },
+    {
+      "name": "@high"
+    },
+    {
+      "name": "@digit_2length"
+    }
+  ]
+});
+formatter.step({
+  "name": "random digit number \"2\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.randomDigitInput.random_digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "expectedList and actualList should be same",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
 });
 formatter.result({
   "status": "passed"
@@ -6236,7 +6236,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6252,7 +6252,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6281,7 +6281,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6297,7 +6297,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6326,7 +6326,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6342,7 +6342,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6371,7 +6371,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6387,7 +6387,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6416,7 +6416,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6432,7 +6432,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6461,7 +6461,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6477,7 +6477,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6506,7 +6506,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6522,7 +6522,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6551,7 +6551,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6567,7 +6567,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6596,7 +6596,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6612,7 +6612,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6641,7 +6641,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -6657,7 +6657,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_expected_List(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
@@ -6682,17 +6682,17 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "the user enters specific single digit number \"5\"",
+  "name": "the user enters digit number \"5\"",
   "keyword": "When "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_enters_specific_single_digit_number(java.lang.String)"
+  "location": "dto.step_definitions.dialPadTest.the_user_enters_digit_number(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should see fallowing list for single digit",
+  "name": "the user should see fallowing list",
   "rows": [
     {},
     {},
@@ -6701,7 +6701,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dto.step_definitions.singleDigit.the_user_should_see_fallowing_list_for_single_digit(java.util.List\u003cjava.lang.String\u003e)"
+  "location": "dto.step_definitions.dialPadTest.the_user_should_see_fallowing_list(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"

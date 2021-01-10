@@ -3,13 +3,13 @@ Feature: Negative Test of Dial Pad
 
   @NTOneDigit @low
   Scenario: One digit test
-    When digit number "0"
-    Then List length should not contain "A"
+    When the user enters digit number "0"
+    Then list should not contain "A"
 
   @NTDDTest @medium
   Scenario Outline: Different combinations test
-    When digit number "<digitNumber>"
-    Then List length should not contain "<unexpectedResult>"
+    When the user enters digit number "<digitNumber>"
+    Then list should not contain "<unexpectedResult>"
 
 
     Examples:

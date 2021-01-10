@@ -26,8 +26,8 @@ Feature: Single Digit Function Test
 
   @SDSpecific @low
   Scenario: try one specific single digit
-    When the user enters specific single digit number "5"
-    Then the user should see fallowing list for single digit
+    When the user enters digit number "5"
+    Then the user should see fallowing list
       | J |
       | K |
       | L |

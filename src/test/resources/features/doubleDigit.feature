@@ -4,7 +4,7 @@ Feature: Double Digit Function Test
 
   @DDDataDriven @high
   Scenario Outline: try one valid single digit "<str>"
-    When the user enters double digit number "<str>"
+    When the user enters digit number "<str>"
     Then the user should see expected List for the double digit
 
       | list1  | <list1>  |
@@ -63,7 +63,7 @@ Feature: Double Digit Function Test
 
   @DDSpecific @low
   Scenario: try one specific double digit
-    When the user enters double digit number "86"
+    When the user enters digit number "86"
     Then the user should see fallowing list
       | TM |
       | TN |
@@ -77,7 +77,7 @@ Feature: Double Digit Function Test
 
   @DDSpecific @low
   Scenario: try one specific double digit
-    When the user enters double digit number "93"
+    When the user enters digit number "93"
     Then the user should see fallowing list
       | WD |
       | WE |
@@ -94,7 +94,7 @@ Feature: Double Digit Function Test
 
   @DDSpecific @low
   Scenario: try one specific double digit
-    When the user enters double digit number "37"
+    When the user enters digit number "37"
     Then the user should see fallowing list
       | DP |
       | DQ |

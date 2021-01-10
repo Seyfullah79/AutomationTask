@@ -3,28 +3,28 @@ Feature: More than two digits test
 
   @FourDigit @low
   Scenario: four digits test "6637"
-    When the user enters digit numbers "6637"
+    When the user enters digit number "6637"
     Then the list should contain "OMER"
 
   @FiveDigit @low
   Scenario: five digits test "01987"
-    When the user enters digit numbers "01987"
+    When the user enters digit number "01987"
     Then the list should contain "01WTS"
 
   @SixDigit @low
   Scenario: six digits test "845326"
-    When the user enters digit numbers "845326"
+    When the user enters digit number "845326"
     Then the list should contain "VILDAN"
 
   @SevenDigit @low
   Scenario: seven digits test "7377328"
-    When the user enters digit numbers "7377328"
+    When the user enters digit number "7377328"
     Then the list should contain "RESPECT"
 
 
   @DDT3 @medium
   Scenario Outline: 3 Digits Function Tests <inputDigits>
-    When the user enters digit numbers "<inputDigits>"
+    When the user enters digit number "<inputDigits>"
     Then the list should contain "<expectedResult>"
 
     Examples:
@@ -43,7 +43,7 @@ Feature: More than two digits test
 
   @DDT4 @medium
   Scenario Outline: 4 Digits Function Tests <inputDigits>
-    When the user enters digit numbers "<inputDigits>"
+    When the user enters digit number "<inputDigits>"
     Then the list should contain "<expectedResult>"
 
     Examples:
@@ -62,7 +62,7 @@ Feature: More than two digits test
 
   @DDT5 @medium
   Scenario Outline: 5 Digits Function Tests <inputDigits>
-    When the user enters digit numbers "<inputDigits>"
+    When the user enters digit number "<inputDigits>"
     Then the list should contain "<expectedResult>"
 
     Examples:
@@ -81,7 +81,7 @@ Feature: More than two digits test
 
   @DDT6 @medium
   Scenario Outline: 6 Digits Function Tests <inputDigits>
-    When the user enters digit numbers "<inputDigits>"
+    When the user enters digit number "<inputDigits>"
     Then the list should contain "<expectedResult>"
 
     Examples:
@@ -101,7 +101,7 @@ Feature: More than two digits test
 
   @DDTName @medium
   Scenario Outline: Name Tests <inputDigits>
-    When the user enters digit numbers "<inputDigits>"
+    When the user enters digit number "<inputDigits>"
     Then the list should contain "<expectedResult>"
 
     Examples:
