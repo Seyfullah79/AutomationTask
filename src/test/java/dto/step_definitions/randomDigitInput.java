@@ -1,8 +1,11 @@
 package dto.step_definitions;
 
+import com.opencsv.exceptions.CsvException;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+
+import java.io.IOException;
 import java.util.List;
 import static dto.step_definitions.TelephoneDialPad.*;
 
@@ -23,7 +26,7 @@ public class randomDigitInput {
     }
 
     @Then("expectedList and actualList should be same")
-    public void expectedList_and_actualList_should_be_same() {
+    public void expectedList_and_actualList_should_be_same() throws IOException, CsvException {
 
         //get the expected List by using method in the Util class
         List<String> expectedList = Util.getExpectedList(inputDigits);

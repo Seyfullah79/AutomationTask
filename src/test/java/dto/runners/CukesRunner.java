@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "dto/step_definitions",
         dryRun = false,
         strict = true,
-        tags = "@TestSuit"
+        tags = "@RD"
 )
 
 public class CukesRunner {

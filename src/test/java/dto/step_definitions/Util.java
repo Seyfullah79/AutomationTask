@@ -2,6 +2,7 @@ package dto.step_definitions;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -30,32 +31,28 @@ public class Util {
     }
 
 
-    public static List<String> getExpectedList(String digits) {
+    public static List<String> getExpectedList(String digits) throws IOException, CsvException {
 
         // assign the path file into string
         String filePath = "src/test/resources/testData.csv";
 
         //create a List of String to store the combinations coming from csv file
-        List<String> expectedList =new LinkedList<>();
+        List<String> expectedList = new LinkedList<>();
 
-        try (CSVReader reader = new CSVReader(new FileReader(filePath))) {
+        //create an object to read the data from csv file
+        CSVReader reader = new CSVReader(new FileReader(filePath));
 
-            for (String[] strings : reader.readAll()) {
+        //store all data in list of String array
+        List<String[]> allData = reader.readAll();
 
-                if(strings[0].equals(digits)) {
-                    for (String string : strings) {
-                        expectedList.add(string);
-                    }
-                    expectedList.remove(0);
-
+        //search for exact data and store in a expected list and return it
+        for (String[] strings : allData) {
+            if (strings[0].equals(digits)) {
+                for (String string : strings) {
+                    expectedList.add(string);
                 }
-
+                expectedList.remove(0);
             }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException | CsvException e) {
-            e.printStackTrace();
         }
         return expectedList;
     }
