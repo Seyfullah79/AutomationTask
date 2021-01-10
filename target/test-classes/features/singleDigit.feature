@@ -1,4 +1,4 @@
-@TestAll @SDAll @high
+@TestSuit @SDAll
 Feature: Single Digit Function Test
 
   @SDDataDriven @high

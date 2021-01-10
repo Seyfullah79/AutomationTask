@@ -4,5 +4,6 @@
 /Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/step_definitions/singleDigit.java
 /Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/step_definitions/Util.java
 /Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/step_definitions/randomDigitInput.java
+/Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/step_definitions/negativeTests.java
 /Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/step_definitions/TelephoneDialPad.java
 /Users/seyfullahklnc/Desktop/AutomationTask/src/test/java/dto/runners/CukesRunner.java

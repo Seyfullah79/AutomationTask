@@ -1,28 +1,28 @@
-@TestAll  @moreThanTwo
+@TestSuit  @moreThanTwo
 Feature: More than two digits test
 
-  @FourDigit @medium
+  @FourDigit @low
   Scenario: four digits test "6637"
     When the user enters digit numbers "6637"
     Then the list should contain "OMER"
 
-  @FiveDigit @medium
+  @FiveDigit @low
   Scenario: five digits test "01987"
     When the user enters digit numbers "01987"
     Then the list should contain "01WTS"
 
-  @SixDigit @medium
+  @SixDigit @low
   Scenario: six digits test "845326"
     When the user enters digit numbers "845326"
     Then the list should contain "VILDAN"
 
-  @SevenDigit @medium
+  @SevenDigit @low
   Scenario: seven digits test "7377328"
     When the user enters digit numbers "7377328"
     Then the list should contain "RESPECT"
 
 
-  @DDT3
+  @DDT3 @medium
   Scenario Outline: 3 Digits Function Tests <inputDigits>
     When the user enters digit numbers "<inputDigits>"
     Then the list should contain "<expectedResult>"
@@ -30,8 +30,8 @@ Feature: More than two digits test
     Examples:
 
       | inputDigits | expectedResult |
-      | 036         | 0DM1           |
-      | 189         | 1UZ1           |
+      | 036         | 0DM           |
+      | 189         | 1UZ           |
       | 255         | BJK            |
       | 379         | ERX            |
       | 404         | G0H            |
@@ -41,7 +41,7 @@ Feature: More than two digits test
       | 836         | TEN            |
       | 999         | XYZ            |
 
-  @DDT4
+  @DDT4 @medium
   Scenario Outline: 4 Digits Function Tests <inputDigits>
     When the user enters digit numbers "<inputDigits>"
     Then the list should contain "<expectedResult>"
@@ -60,7 +60,7 @@ Feature: More than two digits test
       | 8369        | TENY           |
       | 9990        | XYZ0           |
 
-  @DDT5
+  @DDT5 @medium
   Scenario Outline: 5 Digits Function Tests <inputDigits>
     When the user enters digit numbers "<inputDigits>"
     Then the list should contain "<expectedResult>"
@@ -79,7 +79,7 @@ Feature: More than two digits test
       | 83691       | TENY1          |
       | 99900       | XYZ00          |
 
-  @DDT6
+  @DDT6 @medium
   Scenario Outline: 6 Digits Function Tests <inputDigits>
     When the user enters digit numbers "<inputDigits>"
     Then the list should contain "<expectedResult>"
@@ -99,7 +99,7 @@ Feature: More than two digits test
       | 999003      | XYZ00E         |
 
 
-  @DDTName
+  @DDTName @medium
   Scenario Outline: Name Tests <inputDigits>
     When the user enters digit numbers "<inputDigits>"
     Then the list should contain "<expectedResult>"

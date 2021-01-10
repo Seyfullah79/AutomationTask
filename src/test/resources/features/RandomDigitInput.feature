@@ -1,6 +1,5 @@
-
-@TestAll @randomDigitInput @high
-Feature: DialPad
+@TestSuit @RD @high
+Feature: Random one and two digits test
 
   @digit_1length
   Scenario: one digit

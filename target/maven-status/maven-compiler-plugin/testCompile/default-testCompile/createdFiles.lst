@@ -2,6 +2,7 @@ dto/step_definitions/moreThanTwo.class
 dto/step_definitions/randomDigitInput.class
 dto/runners/CukesRunner.class
 dto/step_definitions/doubleDigit.class
+dto/step_definitions/negativeTests.class
 dto/runners/FailedTestRunner.class
 dto/step_definitions/Util.class
 dto/step_definitions/TelephoneDialPad.class

@@ -1,14 +1,14 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/RandomDigitInput.feature");
 formatter.feature({
-  "name": "DialPad",
+  "name": "Random one and two digits test",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
-      "name": "@randomDigitInput"
+      "name": "@RD"
     },
     {
       "name": "@high"
@@ -21,10 +21,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
-      "name": "@randomDigitInput"
+      "name": "@RD"
     },
     {
       "name": "@high"
@@ -60,10 +60,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
-      "name": "@randomDigitInput"
+      "name": "@RD"
     },
     {
       "name": "@high"
@@ -100,13 +100,10 @@ formatter.feature({
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
-    },
-    {
-      "name": "@high"
     }
   ]
 });
@@ -117,6 +114,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDDataDriven"
+    },
+    {
+      "name": "@high"
     }
   ]
 });
@@ -911,16 +911,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -968,16 +968,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1025,16 +1025,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1082,16 +1082,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1139,16 +1139,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1196,16 +1196,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1253,16 +1253,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1310,16 +1310,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1367,16 +1367,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1424,16 +1424,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1481,16 +1481,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1538,16 +1538,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1595,16 +1595,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1652,16 +1652,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1709,16 +1709,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1766,16 +1766,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1823,16 +1823,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1880,16 +1880,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1937,16 +1937,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -1994,16 +1994,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2051,16 +2051,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2108,16 +2108,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2165,16 +2165,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2222,16 +2222,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2279,16 +2279,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2336,16 +2336,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2393,16 +2393,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2450,16 +2450,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2507,16 +2507,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2564,16 +2564,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2621,16 +2621,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
     },
     {
-      "name": "@high"
+      "name": "@DDDataDriven"
     },
     {
-      "name": "@DDDataDriven"
+      "name": "@high"
     }
   ]
 });
@@ -2678,13 +2678,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@DDSpecific"
@@ -2731,13 +2728,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@DDSpecific"
@@ -2787,13 +2781,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@DDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@DDSpecific"
@@ -2844,7 +2835,7 @@ formatter.feature({
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
@@ -2857,7 +2848,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
@@ -2866,7 +2857,7 @@ formatter.scenario({
       "name": "@FourDigit"
     },
     {
-      "name": "@medium"
+      "name": "@low"
     }
   ]
 });
@@ -2896,7 +2887,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
@@ -2905,7 +2896,7 @@ formatter.scenario({
       "name": "@FiveDigit"
     },
     {
-      "name": "@medium"
+      "name": "@low"
     }
   ]
 });
@@ -2935,7 +2926,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
@@ -2944,7 +2935,7 @@ formatter.scenario({
       "name": "@SixDigit"
     },
     {
-      "name": "@medium"
+      "name": "@low"
     }
   ]
 });
@@ -2974,7 +2965,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
@@ -2983,7 +2974,7 @@ formatter.scenario({
       "name": "@SevenDigit"
     },
     {
-      "name": "@medium"
+      "name": "@low"
     }
   ]
 });
@@ -3014,6 +3005,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3039,13 +3033,13 @@ formatter.examples({
     {
       "cells": [
         "036",
-        "0DM1"
+        "0DM"
       ]
     },
     {
       "cells": [
         "189",
-        "1UZ1"
+        "1UZ"
       ]
     },
     {
@@ -3104,13 +3098,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3125,15 +3122,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the list should contain \"0DM1\"",
+  "name": "the list should contain \"0DM\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat dto.step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"0DM1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "3 Digits Function Tests 189",
@@ -3141,13 +3137,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3162,15 +3161,14 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the list should contain \"1UZ1\"",
+  "name": "the list should contain \"1UZ\"",
   "keyword": "Then "
 });
 formatter.match({
   "location": "dto.step_definitions.moreThanTwo.the_list_should_contain(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat dto.step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"1UZ1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "3 Digits Function Tests 255",
@@ -3178,13 +3176,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3214,13 +3215,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3250,13 +3254,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3286,13 +3293,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3322,13 +3332,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3358,13 +3371,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3394,13 +3410,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3430,13 +3449,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT3"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3467,6 +3489,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3557,13 +3582,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3593,13 +3621,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3629,13 +3660,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3665,13 +3699,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3701,13 +3738,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3737,13 +3777,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3773,13 +3816,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3809,13 +3855,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3845,13 +3894,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3881,13 +3933,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT4"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -3918,6 +3973,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4008,13 +4066,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4044,13 +4105,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4080,13 +4144,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4116,13 +4183,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4152,13 +4222,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4188,13 +4261,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4224,13 +4300,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4260,13 +4339,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4296,13 +4378,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4332,13 +4417,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT5"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4369,6 +4457,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4459,13 +4550,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4495,13 +4589,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4531,13 +4628,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4567,13 +4667,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4603,13 +4706,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4639,13 +4745,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4675,13 +4784,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4711,13 +4823,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4747,13 +4862,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4783,13 +4901,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDT6"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4820,6 +4941,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@DDTName"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4874,13 +4998,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDTName"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4910,13 +5037,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDTName"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4946,13 +5076,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDTName"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -4982,13 +5115,16 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@moreThanTwo"
     },
     {
       "name": "@DDTName"
+    },
+    {
+      "name": "@medium"
     }
   ]
 });
@@ -5012,6 +5148,903 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.uri("file:src/test/resources/features/negativeTests.feature");
+formatter.feature({
+  "name": "Negative Test of Dial Pad",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "One digit test",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTOneDigit"
+    },
+    {
+      "name": "@low"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"0\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"A\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"\u003cdigitNumber\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "List length should not contain \"\u003cunexpectedResult\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "digitNumber",
+        "unexpectedResult"
+      ]
+    },
+    {
+      "cells": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "cells": [
+        "1",
+        "A"
+      ]
+    },
+    {
+      "cells": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "cells": [
+        "2",
+        "D"
+      ]
+    },
+    {
+      "cells": [
+        "3",
+        "C"
+      ]
+    },
+    {
+      "cells": [
+        "3",
+        "G"
+      ]
+    },
+    {
+      "cells": [
+        "4",
+        "F"
+      ]
+    },
+    {
+      "cells": [
+        "4",
+        "J"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "I"
+      ]
+    },
+    {
+      "cells": [
+        "5",
+        "M"
+      ]
+    },
+    {
+      "cells": [
+        "6",
+        "L"
+      ]
+    },
+    {
+      "cells": [
+        "6",
+        "P"
+      ]
+    },
+    {
+      "cells": [
+        "7",
+        "O"
+      ]
+    },
+    {
+      "cells": [
+        "7",
+        "T"
+      ]
+    },
+    {
+      "cells": [
+        "8",
+        "S"
+      ]
+    },
+    {
+      "cells": [
+        "8",
+        "W"
+      ]
+    },
+    {
+      "cells": [
+        "9",
+        "V"
+      ]
+    },
+    {
+      "cells": [
+        "9",
+        "0"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"0\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"1\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"A\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"0\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"2\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"D\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"3\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"C\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"3\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"G\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"4\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"F\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"4\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"J\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"5\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"I\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"5\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"M\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"6\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"L\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"6\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"P\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"7\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"O\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"7\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"T\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"8\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"S\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"8\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"W\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"9\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"V\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Different combinations test",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@TestSuit"
+    },
+    {
+      "name": "@negative"
+    },
+    {
+      "name": "@NTDDTest"
+    },
+    {
+      "name": "@medium"
+    }
+  ]
+});
+formatter.step({
+  "name": "digit number \"9\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "List length should not contain \"0\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/features/singleDigit.feature");
 formatter.feature({
   "name": "Single Digit Function Test",
@@ -5019,13 +6052,10 @@ formatter.feature({
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     }
   ]
 });
@@ -5188,13 +6218,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5236,13 +6263,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5284,13 +6308,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5332,13 +6353,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5380,13 +6398,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5428,13 +6443,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5476,13 +6488,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5524,13 +6533,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5572,13 +6578,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5620,13 +6623,10 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDDataDriven"
@@ -5668,13 +6668,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@TestAll"
+      "name": "@TestSuit"
     },
     {
       "name": "@SDAll"
-    },
-    {
-      "name": "@high"
     },
     {
       "name": "@SDSpecific"

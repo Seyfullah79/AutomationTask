@@ -1,22 +1,22 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-09T19:30:25.837Z",
-        "line": 6,
+        "start_timestamp": "2021-01-10T08:43:41.534Z",
+        "line": 5,
         "name": "one digit",
         "description": "",
-        "id": "dialpad;one-digit",
+        "id": "random-one-and-two-digits-test;one-digit",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13273000,
+              "duration": 2602000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "random digit number \"1\"",
             "match": {
               "arguments": [
@@ -31,10 +31,10 @@
           },
           {
             "result": {
-              "duration": 51481000,
+              "duration": 26121000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "expectedList and actualList should be same",
             "match": {
               "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
@@ -44,10 +44,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
-            "name": "@randomDigitInput"
+            "name": "@RD"
           },
           {
             "name": "@high"
@@ -58,20 +58,20 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:26.265Z",
-        "line": 11,
+        "start_timestamp": "2021-01-10T08:43:41.668Z",
+        "line": 10,
         "name": "double digit",
         "description": "",
-        "id": "dialpad;double-digit",
+        "id": "random-one-and-two-digits-test;double-digit",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4528000,
+              "duration": 1994000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "random digit number \"2\"",
             "match": {
               "arguments": [
@@ -86,10 +86,10 @@
           },
           {
             "result": {
-              "duration": 8005000,
+              "duration": 3755000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "expectedList and actualList should be same",
             "match": {
               "location": "dto.step_definitions.randomDigitInput.expectedList_and_actualList_should_be_same()"
@@ -99,10 +99,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
-            "name": "@randomDigitInput"
+            "name": "@RD"
           },
           {
             "name": "@high"
@@ -113,34 +113,34 @@
         ]
       }
     ],
-    "name": "DialPad",
+    "name": "Random one and two digits test",
     "description": "",
-    "id": "dialpad",
+    "id": "random-one-and-two-digits-test",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/RandomDigitInput.feature",
     "tags": [
       {
-        "name": "@TestAll",
+        "name": "@TestSuit",
         "type": "Tag",
         "location": {
-          "line": 2,
+          "line": 1,
           "column": 1
         }
       },
       {
-        "name": "@randomDigitInput",
+        "name": "@RD",
         "type": "Tag",
         "location": {
-          "line": 2,
-          "column": 10
+          "line": 1,
+          "column": 11
         }
       },
       {
         "name": "@high",
         "type": "Tag",
         "location": {
-          "line": 2,
-          "column": 28
+          "line": 1,
+          "column": 15
         }
       }
     ]
@@ -149,7 +149,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-01-09T19:30:26.360Z",
+        "start_timestamp": "2021-01-10T08:43:41.724Z",
         "line": 31,
         "name": "try one valid single digit \"01\"",
         "description": "",
@@ -159,7 +159,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12988000,
+              "duration": 714000,
               "status": "passed"
             },
             "line": 7,
@@ -177,7 +177,7 @@
           },
           {
             "result": {
-              "duration": 44153000,
+              "duration": 5243000,
               "status": "passed"
             },
             "line": 8,
@@ -288,21 +288,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:26.850Z",
+        "start_timestamp": "2021-01-10T08:43:41.818Z",
         "line": 32,
         "name": "try one valid single digit \"02\"",
         "description": "",
@@ -312,7 +312,7 @@
         "steps": [
           {
             "result": {
-              "duration": 974000,
+              "duration": 905000,
               "status": "passed"
             },
             "line": 7,
@@ -330,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 49350000,
+              "duration": 3034000,
               "status": "passed"
             },
             "line": 8,
@@ -441,21 +441,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:26.927Z",
+        "start_timestamp": "2021-01-10T08:43:41.847Z",
         "line": 33,
         "name": "try one valid single digit \"03\"",
         "description": "",
@@ -465,7 +465,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1019000,
+              "duration": 2121000,
               "status": "passed"
             },
             "line": 7,
@@ -483,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 3035000,
+              "duration": 8063000,
               "status": "passed"
             },
             "line": 8,
@@ -594,21 +594,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:26.977Z",
+        "start_timestamp": "2021-01-10T08:43:41.885Z",
         "line": 34,
         "name": "try one valid single digit \"10\"",
         "description": "",
@@ -618,7 +618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2365000,
+              "duration": 1215000,
               "status": "passed"
             },
             "line": 7,
@@ -636,7 +636,7 @@
           },
           {
             "result": {
-              "duration": 5224000,
+              "duration": 3081000,
               "status": "passed"
             },
             "line": 8,
@@ -747,21 +747,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.057Z",
+        "start_timestamp": "2021-01-10T08:43:41.907Z",
         "line": 35,
         "name": "try one valid single digit \"11\"",
         "description": "",
@@ -771,7 +771,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1177000,
+              "duration": 812000,
               "status": "passed"
             },
             "line": 7,
@@ -789,7 +789,7 @@
           },
           {
             "result": {
-              "duration": 4656000,
+              "duration": 2564000,
               "status": "passed"
             },
             "line": 8,
@@ -900,21 +900,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.073Z",
+        "start_timestamp": "2021-01-10T08:43:41.920Z",
         "line": 36,
         "name": "try one valid single digit \"12\"",
         "description": "",
@@ -924,7 +924,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10201000,
+              "duration": 1060000,
               "status": "passed"
             },
             "line": 7,
@@ -942,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 6006000,
+              "duration": 3097000,
               "status": "passed"
             },
             "line": 8,
@@ -1053,21 +1053,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.114Z",
+        "start_timestamp": "2021-01-10T08:43:41.934Z",
         "line": 37,
         "name": "try one valid single digit \"19\"",
         "description": "",
@@ -1077,7 +1077,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1300000,
+              "duration": 1621000,
               "status": "passed"
             },
             "line": 7,
@@ -1095,7 +1095,7 @@
           },
           {
             "result": {
-              "duration": 29364000,
+              "duration": 13029000,
               "status": "passed"
             },
             "line": 8,
@@ -1206,21 +1206,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.194Z",
+        "start_timestamp": "2021-01-10T08:43:41.960Z",
         "line": 38,
         "name": "try one valid single digit \"23\"",
         "description": "",
@@ -1230,7 +1230,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2692000,
+              "duration": 3549000,
               "status": "passed"
             },
             "line": 7,
@@ -1248,7 +1248,7 @@
           },
           {
             "result": {
-              "duration": 5867000,
+              "duration": 8554000,
               "status": "passed"
             },
             "line": 8,
@@ -1359,21 +1359,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.231Z",
+        "start_timestamp": "2021-01-10T08:43:41.981Z",
         "line": 39,
         "name": "try one valid single digit \"24\"",
         "description": "",
@@ -1383,7 +1383,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6428000,
+              "duration": 1093000,
               "status": "passed"
             },
             "line": 7,
@@ -1401,7 +1401,7 @@
           },
           {
             "result": {
-              "duration": 2956000,
+              "duration": 3467000,
               "status": "passed"
             },
             "line": 8,
@@ -1512,21 +1512,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.273Z",
+        "start_timestamp": "2021-01-10T08:43:41.994Z",
         "line": 40,
         "name": "try one valid single digit \"25\"",
         "description": "",
@@ -1536,7 +1536,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2912000,
+              "duration": 1462000,
               "status": "passed"
             },
             "line": 7,
@@ -1554,7 +1554,7 @@
           },
           {
             "result": {
-              "duration": 10772000,
+              "duration": 3737000,
               "status": "passed"
             },
             "line": 8,
@@ -1665,21 +1665,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.314Z",
+        "start_timestamp": "2021-01-10T08:43:42.009Z",
         "line": 41,
         "name": "try one valid single digit \"37\"",
         "description": "",
@@ -1689,7 +1689,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1562000,
+              "duration": 853000,
               "status": "passed"
             },
             "line": 7,
@@ -1707,7 +1707,7 @@
           },
           {
             "result": {
-              "duration": 3339000,
+              "duration": 2494000,
               "status": "passed"
             },
             "line": 8,
@@ -1818,21 +1818,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.328Z",
+        "start_timestamp": "2021-01-10T08:43:42.023Z",
         "line": 42,
         "name": "try one valid single digit \"38\"",
         "description": "",
@@ -1842,7 +1842,7 @@
         "steps": [
           {
             "result": {
-              "duration": 841000,
+              "duration": 1282000,
               "status": "passed"
             },
             "line": 7,
@@ -1860,7 +1860,7 @@
           },
           {
             "result": {
-              "duration": 21802000,
+              "duration": 3773000,
               "status": "passed"
             },
             "line": 8,
@@ -1971,21 +1971,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.399Z",
+        "start_timestamp": "2021-01-10T08:43:42.041Z",
         "line": 43,
         "name": "try one valid single digit \"39\"",
         "description": "",
@@ -1995,7 +1995,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1269000,
+              "duration": 817000,
               "status": "passed"
             },
             "line": 7,
@@ -2013,7 +2013,7 @@
           },
           {
             "result": {
-              "duration": 3240000,
+              "duration": 2384000,
               "status": "passed"
             },
             "line": 8,
@@ -2124,21 +2124,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.463Z",
+        "start_timestamp": "2021-01-10T08:43:42.053Z",
         "line": 44,
         "name": "try one valid single digit \"40\"",
         "description": "",
@@ -2148,7 +2148,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2813000,
+              "duration": 518000,
               "status": "passed"
             },
             "line": 7,
@@ -2166,7 +2166,7 @@
           },
           {
             "result": {
-              "duration": 7394000,
+              "duration": 2245000,
               "status": "passed"
             },
             "line": 8,
@@ -2277,21 +2277,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.495Z",
+        "start_timestamp": "2021-01-10T08:43:42.064Z",
         "line": 45,
         "name": "try one valid single digit \"43\"",
         "description": "",
@@ -2301,7 +2301,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4244000,
+              "duration": 951000,
               "status": "passed"
             },
             "line": 7,
@@ -2319,7 +2319,7 @@
           },
           {
             "result": {
-              "duration": 7779000,
+              "duration": 1709000,
               "status": "passed"
             },
             "line": 8,
@@ -2430,21 +2430,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.550Z",
+        "start_timestamp": "2021-01-10T08:43:42.073Z",
         "line": 46,
         "name": "try one valid single digit \"49\"",
         "description": "",
@@ -2454,7 +2454,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30124000,
+              "duration": 2108000,
               "status": "passed"
             },
             "line": 7,
@@ -2472,7 +2472,7 @@
           },
           {
             "result": {
-              "duration": 8987000,
+              "duration": 3144000,
               "status": "passed"
             },
             "line": 8,
@@ -2583,21 +2583,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.607Z",
+        "start_timestamp": "2021-01-10T08:43:42.085Z",
         "line": 47,
         "name": "try one valid single digit \"50\"",
         "description": "",
@@ -2607,7 +2607,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1268000,
+              "duration": 664000,
               "status": "passed"
             },
             "line": 7,
@@ -2625,7 +2625,7 @@
           },
           {
             "result": {
-              "duration": 6057000,
+              "duration": 1665000,
               "status": "passed"
             },
             "line": 8,
@@ -2736,21 +2736,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.638Z",
+        "start_timestamp": "2021-01-10T08:43:42.092Z",
         "line": 48,
         "name": "try one valid single digit \"51\"",
         "description": "",
@@ -2760,7 +2760,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1214000,
+              "duration": 666000,
               "status": "passed"
             },
             "line": 7,
@@ -2778,7 +2778,7 @@
           },
           {
             "result": {
-              "duration": 22204000,
+              "duration": 1981000,
               "status": "passed"
             },
             "line": 8,
@@ -2889,21 +2889,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.687Z",
+        "start_timestamp": "2021-01-10T08:43:42.103Z",
         "line": 49,
         "name": "try one valid single digit \"57\"",
         "description": "",
@@ -2913,7 +2913,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2527000,
+              "duration": 672000,
               "status": "passed"
             },
             "line": 7,
@@ -2931,7 +2931,7 @@
           },
           {
             "result": {
-              "duration": 3368000,
+              "duration": 1845000,
               "status": "passed"
             },
             "line": 8,
@@ -3042,21 +3042,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.712Z",
+        "start_timestamp": "2021-01-10T08:43:42.112Z",
         "line": 50,
         "name": "try one valid single digit \"61\"",
         "description": "",
@@ -3066,7 +3066,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1894000,
+              "duration": 575000,
               "status": "passed"
             },
             "line": 7,
@@ -3084,7 +3084,7 @@
           },
           {
             "result": {
-              "duration": 4951000,
+              "duration": 2592000,
               "status": "passed"
             },
             "line": 8,
@@ -3195,21 +3195,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.771Z",
+        "start_timestamp": "2021-01-10T08:43:42.121Z",
         "line": 51,
         "name": "try one valid single digit \"66\"",
         "description": "",
@@ -3219,7 +3219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1834000,
+              "duration": 1121000,
               "status": "passed"
             },
             "line": 7,
@@ -3237,7 +3237,7 @@
           },
           {
             "result": {
-              "duration": 40435000,
+              "duration": 2615000,
               "status": "passed"
             },
             "line": 8,
@@ -3348,21 +3348,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.849Z",
+        "start_timestamp": "2021-01-10T08:43:42.137Z",
         "line": 52,
         "name": "try one valid single digit \"67\"",
         "description": "",
@@ -3372,7 +3372,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1949000,
+              "duration": 864000,
               "status": "passed"
             },
             "line": 7,
@@ -3390,7 +3390,7 @@
           },
           {
             "result": {
-              "duration": 11081000,
+              "duration": 5360000,
               "status": "passed"
             },
             "line": 8,
@@ -3501,21 +3501,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.877Z",
+        "start_timestamp": "2021-01-10T08:43:42.153Z",
         "line": 53,
         "name": "try one valid single digit \"70\"",
         "description": "",
@@ -3525,7 +3525,7 @@
         "steps": [
           {
             "result": {
-              "duration": 758000,
+              "duration": 660000,
               "status": "passed"
             },
             "line": 7,
@@ -3543,7 +3543,7 @@
           },
           {
             "result": {
-              "duration": 74997000,
+              "duration": 2101000,
               "status": "passed"
             },
             "line": 8,
@@ -3654,21 +3654,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.960Z",
+        "start_timestamp": "2021-01-10T08:43:42.162Z",
         "line": 54,
         "name": "try one valid single digit \"74\"",
         "description": "",
@@ -3678,7 +3678,7 @@
         "steps": [
           {
             "result": {
-              "duration": 784000,
+              "duration": 1792000,
               "status": "passed"
             },
             "line": 7,
@@ -3696,7 +3696,7 @@
           },
           {
             "result": {
-              "duration": 5601000,
+              "duration": 6633000,
               "status": "passed"
             },
             "line": 8,
@@ -3807,21 +3807,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:27.974Z",
+        "start_timestamp": "2021-01-10T08:43:42.183Z",
         "line": 55,
         "name": "try one valid single digit \"79\"",
         "description": "",
@@ -3831,7 +3831,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2864000,
+              "duration": 1041000,
               "status": "passed"
             },
             "line": 7,
@@ -3849,7 +3849,7 @@
           },
           {
             "result": {
-              "duration": 19464000,
+              "duration": 3004000,
               "status": "passed"
             },
             "line": 8,
@@ -3960,21 +3960,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.011Z",
+        "start_timestamp": "2021-01-10T08:43:42.194Z",
         "line": 56,
         "name": "try one valid single digit \"82\"",
         "description": "",
@@ -3984,7 +3984,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1108000,
+              "duration": 767000,
               "status": "passed"
             },
             "line": 7,
@@ -4002,7 +4002,7 @@
           },
           {
             "result": {
-              "duration": 23067000,
+              "duration": 3895000,
               "status": "passed"
             },
             "line": 8,
@@ -4113,21 +4113,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.080Z",
+        "start_timestamp": "2021-01-10T08:43:42.205Z",
         "line": 57,
         "name": "try one valid single digit \"83\"",
         "description": "",
@@ -4137,7 +4137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2217000,
+              "duration": 821000,
               "status": "passed"
             },
             "line": 7,
@@ -4155,7 +4155,7 @@
           },
           {
             "result": {
-              "duration": 2421000,
+              "duration": 2260000,
               "status": "passed"
             },
             "line": 8,
@@ -4266,21 +4266,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.094Z",
+        "start_timestamp": "2021-01-10T08:43:42.213Z",
         "line": 58,
         "name": "try one valid single digit \"86\"",
         "description": "",
@@ -4290,7 +4290,7 @@
         "steps": [
           {
             "result": {
-              "duration": 424000,
+              "duration": 780000,
               "status": "passed"
             },
             "line": 7,
@@ -4308,7 +4308,7 @@
           },
           {
             "result": {
-              "duration": 1604000,
+              "duration": 2520000,
               "status": "passed"
             },
             "line": 8,
@@ -4419,21 +4419,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.100Z",
+        "start_timestamp": "2021-01-10T08:43:42.223Z",
         "line": 59,
         "name": "try one valid single digit \"96\"",
         "description": "",
@@ -4443,7 +4443,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1203000,
+              "duration": 1080000,
               "status": "passed"
             },
             "line": 7,
@@ -4461,7 +4461,7 @@
           },
           {
             "result": {
-              "duration": 1854000,
+              "duration": 8937000,
               "status": "passed"
             },
             "line": 8,
@@ -4572,21 +4572,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.110Z",
+        "start_timestamp": "2021-01-10T08:43:42.240Z",
         "line": 60,
         "name": "try one valid single digit \"97\"",
         "description": "",
@@ -4596,7 +4596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5132000,
+              "duration": 1422000,
               "status": "passed"
             },
             "line": 7,
@@ -4614,7 +4614,7 @@
           },
           {
             "result": {
-              "duration": 30866000,
+              "duration": 1790000,
               "status": "passed"
             },
             "line": 8,
@@ -4725,21 +4725,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.189Z",
+        "start_timestamp": "2021-01-10T08:43:42.249Z",
         "line": 61,
         "name": "try one valid single digit \"99\"",
         "description": "",
@@ -4749,7 +4749,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1509000,
+              "duration": 709000,
               "status": "passed"
             },
             "line": 7,
@@ -4767,7 +4767,7 @@
           },
           {
             "result": {
-              "duration": 11498000,
+              "duration": 3349000,
               "status": "passed"
             },
             "line": 8,
@@ -4878,21 +4878,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
           },
           {
-            "name": "@high"
+            "name": "@DDDataDriven"
           },
           {
-            "name": "@DDDataDriven"
+            "name": "@high"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.248Z",
+        "start_timestamp": "2021-01-10T08:43:42.259Z",
         "line": 65,
         "name": "try one specific double digit",
         "description": "",
@@ -4902,7 +4902,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8090000,
+              "duration": 647000,
               "status": "passed"
             },
             "line": 66,
@@ -4920,7 +4920,7 @@
           },
           {
             "result": {
-              "duration": 2277000,
+              "duration": 2965000,
               "status": "passed"
             },
             "line": 67,
@@ -4980,13 +4980,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@DDSpecific"
@@ -4997,7 +4994,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.276Z",
+        "start_timestamp": "2021-01-10T08:43:42.270Z",
         "line": 79,
         "name": "try one specific double digit",
         "description": "",
@@ -5007,7 +5004,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13759000,
+              "duration": 781000,
               "status": "passed"
             },
             "line": 80,
@@ -5025,7 +5022,7 @@
           },
           {
             "result": {
-              "duration": 4475000,
+              "duration": 1469000,
               "status": "passed"
             },
             "line": 81,
@@ -5100,13 +5097,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@DDSpecific"
@@ -5117,7 +5111,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.310Z",
+        "start_timestamp": "2021-01-10T08:43:42.283Z",
         "line": 96,
         "name": "try one specific double digit",
         "description": "",
@@ -5127,7 +5121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4918000,
+              "duration": 2032000,
               "status": "passed"
             },
             "line": 97,
@@ -5145,7 +5139,7 @@
           },
           {
             "result": {
-              "duration": 19659000,
+              "duration": 1844000,
               "status": "passed"
             },
             "line": 98,
@@ -5220,13 +5214,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@DDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@DDSpecific"
@@ -5244,7 +5235,7 @@
     "uri": "file:src/test/resources/features/doubleDigit.feature",
     "tags": [
       {
-        "name": "@TestAll",
+        "name": "@TestSuit",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -5256,15 +5247,7 @@
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 12
-        }
-      },
-      {
-        "name": "@high",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 19
+          "column": 11
         }
       }
     ]
@@ -5273,7 +5256,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-09T19:30:28.372Z",
+        "start_timestamp": "2021-01-10T08:43:42.293Z",
         "line": 5,
         "name": "four digits test \"6637\"",
         "description": "",
@@ -5283,7 +5266,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1668000,
+              "duration": 573000,
               "status": "passed"
             },
             "line": 6,
@@ -5301,7 +5284,7 @@
           },
           {
             "result": {
-              "duration": 4520000,
+              "duration": 2289000,
               "status": "passed"
             },
             "line": 7,
@@ -5320,7 +5303,7 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
@@ -5329,12 +5312,12 @@
             "name": "@FourDigit"
           },
           {
-            "name": "@medium"
+            "name": "@low"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.466Z",
+        "start_timestamp": "2021-01-10T08:43:42.322Z",
         "line": 10,
         "name": "five digits test \"01987\"",
         "description": "",
@@ -5344,7 +5327,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10794000,
+              "duration": 2517000,
               "status": "passed"
             },
             "line": 11,
@@ -5362,7 +5345,7 @@
           },
           {
             "result": {
-              "duration": 6088000,
+              "duration": 2659000,
               "status": "passed"
             },
             "line": 12,
@@ -5381,7 +5364,7 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
@@ -5390,12 +5373,12 @@
             "name": "@FiveDigit"
           },
           {
-            "name": "@medium"
+            "name": "@low"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.490Z",
+        "start_timestamp": "2021-01-10T08:43:42.333Z",
         "line": 15,
         "name": "six digits test \"845326\"",
         "description": "",
@@ -5405,7 +5388,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1617000,
+              "duration": 8259000,
               "status": "passed"
             },
             "line": 16,
@@ -5423,7 +5406,7 @@
           },
           {
             "result": {
-              "duration": 4834000,
+              "duration": 985000,
               "status": "passed"
             },
             "line": 17,
@@ -5442,7 +5425,7 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
@@ -5451,12 +5434,12 @@
             "name": "@SixDigit"
           },
           {
-            "name": "@medium"
+            "name": "@low"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.505Z",
+        "start_timestamp": "2021-01-10T08:43:42.372Z",
         "line": 20,
         "name": "seven digits test \"7377328\"",
         "description": "",
@@ -5466,7 +5449,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4332000,
+              "duration": 32026000,
               "status": "passed"
             },
             "line": 21,
@@ -5484,7 +5467,7 @@
           },
           {
             "result": {
-              "duration": 6221000,
+              "duration": 3891000,
               "status": "passed"
             },
             "line": 22,
@@ -5503,7 +5486,7 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
@@ -5512,12 +5495,12 @@
             "name": "@SevenDigit"
           },
           {
-            "name": "@medium"
+            "name": "@low"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.572Z",
+        "start_timestamp": "2021-01-10T08:43:42.428Z",
         "line": 33,
         "name": "3 Digits Function Tests 036",
         "description": "",
@@ -5527,7 +5510,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1702000,
+              "duration": 988000,
               "status": "passed"
             },
             "line": 27,
@@ -5545,16 +5528,15 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat dto.step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"0DM1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
-              "duration": 5016000,
-              "status": "failed"
+              "duration": 26445000,
+              "status": "passed"
             },
             "line": 28,
-            "name": "the list should contain \"0DM1\"",
+            "name": "the list should contain \"0DM\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"0DM1\"",
+                  "val": "\"0DM\"",
                   "offset": 24
                 }
               ],
@@ -5565,18 +5547,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.682Z",
+        "start_timestamp": "2021-01-10T08:43:42.475Z",
         "line": 34,
         "name": "3 Digits Function Tests 189",
         "description": "",
@@ -5586,7 +5571,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3217000,
+              "duration": 635000,
               "status": "passed"
             },
             "line": 27,
@@ -5604,16 +5589,15 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat dto.step_definitions.moreThanTwo.the_list_should_contain(moreThanTwo.java:26)\n\tat ✽.the list should contain \"1UZ1\"(file:///Users/seyfullahklnc/Desktop/AutomationTask/src/test/resources/features/moreThanTwo.feature:28)\n",
-              "duration": 5297000,
-              "status": "failed"
+              "duration": 9948000,
+              "status": "passed"
             },
             "line": 28,
-            "name": "the list should contain \"1UZ1\"",
+            "name": "the list should contain \"1UZ\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1UZ1\"",
+                  "val": "\"1UZ\"",
                   "offset": 24
                 }
               ],
@@ -5624,18 +5608,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.775Z",
+        "start_timestamp": "2021-01-10T08:43:42.499Z",
         "line": 35,
         "name": "3 Digits Function Tests 255",
         "description": "",
@@ -5645,7 +5632,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1286000,
+              "duration": 1535000,
               "status": "passed"
             },
             "line": 27,
@@ -5663,7 +5650,7 @@
           },
           {
             "result": {
-              "duration": 778000,
+              "duration": 1130000,
               "status": "passed"
             },
             "line": 28,
@@ -5682,18 +5669,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.795Z",
+        "start_timestamp": "2021-01-10T08:43:42.514Z",
         "line": 36,
         "name": "3 Digits Function Tests 379",
         "description": "",
@@ -5703,7 +5693,7 @@
         "steps": [
           {
             "result": {
-              "duration": 759000,
+              "duration": 923000,
               "status": "passed"
             },
             "line": 27,
@@ -5721,7 +5711,7 @@
           },
           {
             "result": {
-              "duration": 714000,
+              "duration": 1020000,
               "status": "passed"
             },
             "line": 28,
@@ -5740,18 +5730,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.864Z",
+        "start_timestamp": "2021-01-10T08:43:42.522Z",
         "line": 37,
         "name": "3 Digits Function Tests 404",
         "description": "",
@@ -5761,7 +5754,7 @@
         "steps": [
           {
             "result": {
-              "duration": 726000,
+              "duration": 742000,
               "status": "passed"
             },
             "line": 27,
@@ -5779,7 +5772,7 @@
           },
           {
             "result": {
-              "duration": 1104000,
+              "duration": 654000,
               "status": "passed"
             },
             "line": 28,
@@ -5798,18 +5791,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.872Z",
+        "start_timestamp": "2021-01-10T08:43:42.527Z",
         "line": 38,
         "name": "3 Digits Function Tests 592",
         "description": "",
@@ -5819,7 +5815,7 @@
         "steps": [
           {
             "result": {
-              "duration": 782000,
+              "duration": 632000,
               "status": "passed"
             },
             "line": 27,
@@ -5837,7 +5833,7 @@
           },
           {
             "result": {
-              "duration": 636000,
+              "duration": 2622000,
               "status": "passed"
             },
             "line": 28,
@@ -5856,18 +5852,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.878Z",
+        "start_timestamp": "2021-01-10T08:43:42.536Z",
         "line": 39,
         "name": "3 Digits Function Tests 677",
         "description": "",
@@ -5877,7 +5876,7 @@
         "steps": [
           {
             "result": {
-              "duration": 854000,
+              "duration": 3635000,
               "status": "passed"
             },
             "line": 27,
@@ -5895,7 +5894,7 @@
           },
           {
             "result": {
-              "duration": 1037000,
+              "duration": 1101000,
               "status": "passed"
             },
             "line": 28,
@@ -5914,18 +5913,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.888Z",
+        "start_timestamp": "2021-01-10T08:43:42.550Z",
         "line": 40,
         "name": "3 Digits Function Tests 718",
         "description": "",
@@ -5935,7 +5937,7 @@
         "steps": [
           {
             "result": {
-              "duration": 720000,
+              "duration": 1171000,
               "status": "passed"
             },
             "line": 27,
@@ -5953,7 +5955,7 @@
           },
           {
             "result": {
-              "duration": 666000,
+              "duration": 1246000,
               "status": "passed"
             },
             "line": 28,
@@ -5972,18 +5974,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.894Z",
+        "start_timestamp": "2021-01-10T08:43:42.559Z",
         "line": 41,
         "name": "3 Digits Function Tests 836",
         "description": "",
@@ -5993,7 +5998,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1867000,
+              "duration": 637000,
               "status": "passed"
             },
             "line": 27,
@@ -6011,7 +6016,7 @@
           },
           {
             "result": {
-              "duration": 1189000,
+              "duration": 507000,
               "status": "passed"
             },
             "line": 28,
@@ -6030,18 +6035,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.929Z",
+        "start_timestamp": "2021-01-10T08:43:42.565Z",
         "line": 42,
         "name": "3 Digits Function Tests 999",
         "description": "",
@@ -6051,7 +6059,7 @@
         "steps": [
           {
             "result": {
-              "duration": 756000,
+              "duration": 670000,
               "status": "passed"
             },
             "line": 27,
@@ -6069,7 +6077,7 @@
           },
           {
             "result": {
-              "duration": 851000,
+              "duration": 574000,
               "status": "passed"
             },
             "line": 28,
@@ -6088,18 +6096,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT3"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:28.935Z",
+        "start_timestamp": "2021-01-10T08:43:42.573Z",
         "line": 52,
         "name": "4 Digits Function Tests 0361",
         "description": "",
@@ -6109,7 +6120,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1152000,
+              "duration": 954000,
               "status": "passed"
             },
             "line": 46,
@@ -6127,7 +6138,7 @@
           },
           {
             "result": {
-              "duration": 708000,
+              "duration": 774000,
               "status": "passed"
             },
             "line": 47,
@@ -6146,18 +6157,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.005Z",
+        "start_timestamp": "2021-01-10T08:43:42.606Z",
         "line": 53,
         "name": "4 Digits Function Tests 1892",
         "description": "",
@@ -6167,7 +6181,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4097000,
+              "duration": 1813000,
               "status": "passed"
             },
             "line": 46,
@@ -6185,7 +6199,7 @@
           },
           {
             "result": {
-              "duration": 1390000,
+              "duration": 1682000,
               "status": "passed"
             },
             "line": 47,
@@ -6204,18 +6218,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.016Z",
+        "start_timestamp": "2021-01-10T08:43:42.615Z",
         "line": 54,
         "name": "4 Digits Function Tests 2553",
         "description": "",
@@ -6225,7 +6242,7 @@
         "steps": [
           {
             "result": {
-              "duration": 944000,
+              "duration": 1007000,
               "status": "passed"
             },
             "line": 46,
@@ -6243,7 +6260,7 @@
           },
           {
             "result": {
-              "duration": 9907000,
+              "duration": 963000,
               "status": "passed"
             },
             "line": 47,
@@ -6262,18 +6279,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.032Z",
+        "start_timestamp": "2021-01-10T08:43:42.625Z",
         "line": 55,
         "name": "4 Digits Function Tests 3794",
         "description": "",
@@ -6283,7 +6303,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1983000,
+              "duration": 1392000,
               "status": "passed"
             },
             "line": 46,
@@ -6301,7 +6321,7 @@
           },
           {
             "result": {
-              "duration": 741000,
+              "duration": 1011000,
               "status": "passed"
             },
             "line": 47,
@@ -6320,18 +6340,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.045Z",
+        "start_timestamp": "2021-01-10T08:43:42.635Z",
         "line": 56,
         "name": "4 Digits Function Tests 4045",
         "description": "",
@@ -6341,7 +6364,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1242000,
+              "duration": 993000,
               "status": "passed"
             },
             "line": 46,
@@ -6359,7 +6382,7 @@
           },
           {
             "result": {
-              "duration": 817000,
+              "duration": 1921000,
               "status": "passed"
             },
             "line": 47,
@@ -6378,18 +6401,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.055Z",
+        "start_timestamp": "2021-01-10T08:43:42.647Z",
         "line": 57,
         "name": "4 Digits Function Tests 5926",
         "description": "",
@@ -6399,7 +6425,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1289000,
+              "duration": 1001000,
               "status": "passed"
             },
             "line": 46,
@@ -6417,7 +6443,7 @@
           },
           {
             "result": {
-              "duration": 835000,
+              "duration": 1100000,
               "status": "passed"
             },
             "line": 47,
@@ -6436,18 +6462,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.156Z",
+        "start_timestamp": "2021-01-10T08:43:42.655Z",
         "line": 58,
         "name": "4 Digits Function Tests 6777",
         "description": "",
@@ -6457,7 +6486,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1071000,
+              "duration": 759000,
               "status": "passed"
             },
             "line": 46,
@@ -6475,7 +6504,7 @@
           },
           {
             "result": {
-              "duration": 845000,
+              "duration": 632000,
               "status": "passed"
             },
             "line": 47,
@@ -6494,18 +6523,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.176Z",
+        "start_timestamp": "2021-01-10T08:43:42.661Z",
         "line": 59,
         "name": "4 Digits Function Tests 7188",
         "description": "",
@@ -6515,7 +6547,7 @@
         "steps": [
           {
             "result": {
-              "duration": 670000,
+              "duration": 643000,
               "status": "passed"
             },
             "line": 46,
@@ -6533,7 +6565,7 @@
           },
           {
             "result": {
-              "duration": 643000,
+              "duration": 1170000,
               "status": "passed"
             },
             "line": 47,
@@ -6552,18 +6584,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.188Z",
+        "start_timestamp": "2021-01-10T08:43:42.667Z",
         "line": 60,
         "name": "4 Digits Function Tests 8369",
         "description": "",
@@ -6573,7 +6608,7 @@
         "steps": [
           {
             "result": {
-              "duration": 907000,
+              "duration": 917000,
               "status": "passed"
             },
             "line": 46,
@@ -6591,7 +6626,7 @@
           },
           {
             "result": {
-              "duration": 883000,
+              "duration": 897000,
               "status": "passed"
             },
             "line": 47,
@@ -6610,18 +6645,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.197Z",
+        "start_timestamp": "2021-01-10T08:43:42.678Z",
         "line": 61,
         "name": "4 Digits Function Tests 9990",
         "description": "",
@@ -6631,7 +6669,7 @@
         "steps": [
           {
             "result": {
-              "duration": 791000,
+              "duration": 1283000,
               "status": "passed"
             },
             "line": 46,
@@ -6649,7 +6687,7 @@
           },
           {
             "result": {
-              "duration": 3345000,
+              "duration": 638000,
               "status": "passed"
             },
             "line": 47,
@@ -6668,18 +6706,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT4"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.207Z",
+        "start_timestamp": "2021-01-10T08:43:42.691Z",
         "line": 71,
         "name": "5 Digits Function Tests 03619",
         "description": "",
@@ -6689,7 +6730,7 @@
         "steps": [
           {
             "result": {
-              "duration": 713000,
+              "duration": 916000,
               "status": "passed"
             },
             "line": 65,
@@ -6707,7 +6748,7 @@
           },
           {
             "result": {
-              "duration": 925000,
+              "duration": 734000,
               "status": "passed"
             },
             "line": 66,
@@ -6726,18 +6767,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.265Z",
+        "start_timestamp": "2021-01-10T08:43:42.708Z",
         "line": 72,
         "name": "5 Digits Function Tests 18928",
         "description": "",
@@ -6747,7 +6791,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8127000,
+              "duration": 722000,
               "status": "passed"
             },
             "line": 65,
@@ -6765,7 +6809,7 @@
           },
           {
             "result": {
-              "duration": 831000,
+              "duration": 638000,
               "status": "passed"
             },
             "line": 66,
@@ -6784,18 +6828,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.299Z",
+        "start_timestamp": "2021-01-10T08:43:42.714Z",
         "line": 73,
         "name": "5 Digits Function Tests 25537",
         "description": "",
@@ -6805,7 +6852,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51786000,
+              "duration": 4250000,
               "status": "passed"
             },
             "line": 65,
@@ -6823,7 +6870,7 @@
           },
           {
             "result": {
-              "duration": 1557000,
+              "duration": 830000,
               "status": "passed"
             },
             "line": 66,
@@ -6842,18 +6889,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.360Z",
+        "start_timestamp": "2021-01-10T08:43:42.723Z",
         "line": 74,
         "name": "5 Digits Function Tests 37946",
         "description": "",
@@ -6863,7 +6913,7 @@
         "steps": [
           {
             "result": {
-              "duration": 964000,
+              "duration": 1038000,
               "status": "passed"
             },
             "line": 65,
@@ -6881,7 +6931,7 @@
           },
           {
             "result": {
-              "duration": 1031000,
+              "duration": 2067000,
               "status": "passed"
             },
             "line": 66,
@@ -6900,18 +6950,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.371Z",
+        "start_timestamp": "2021-01-10T08:43:42.747Z",
         "line": 75,
         "name": "5 Digits Function Tests 40455",
         "description": "",
@@ -6921,7 +6974,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1406000,
+              "duration": 897000,
               "status": "passed"
             },
             "line": 65,
@@ -6939,7 +6992,7 @@
           },
           {
             "result": {
-              "duration": 879000,
+              "duration": 815000,
               "status": "passed"
             },
             "line": 66,
@@ -6958,18 +7011,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.392Z",
+        "start_timestamp": "2021-01-10T08:43:42.770Z",
         "line": 76,
         "name": "5 Digits Function Tests 59264",
         "description": "",
@@ -6979,7 +7035,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18818000,
+              "duration": 4213000,
               "status": "passed"
             },
             "line": 65,
@@ -6997,7 +7053,7 @@
           },
           {
             "result": {
-              "duration": 994000,
+              "duration": 843000,
               "status": "passed"
             },
             "line": 66,
@@ -7016,18 +7072,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.418Z",
+        "start_timestamp": "2021-01-10T08:43:42.784Z",
         "line": 77,
         "name": "5 Digits Function Tests 67773",
         "description": "",
@@ -7037,7 +7096,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2637000,
+              "duration": 1143000,
               "status": "passed"
             },
             "line": 65,
@@ -7055,7 +7114,7 @@
           },
           {
             "result": {
-              "duration": 948000,
+              "duration": 771000,
               "status": "passed"
             },
             "line": 66,
@@ -7074,18 +7133,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.427Z",
+        "start_timestamp": "2021-01-10T08:43:42.793Z",
         "line": 78,
         "name": "5 Digits Function Tests 71882",
         "description": "",
@@ -7095,7 +7157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 850000,
+              "duration": 645000,
               "status": "passed"
             },
             "line": 65,
@@ -7113,7 +7175,7 @@
           },
           {
             "result": {
-              "duration": 689000,
+              "duration": 588000,
               "status": "passed"
             },
             "line": 66,
@@ -7132,18 +7194,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.436Z",
+        "start_timestamp": "2021-01-10T08:43:42.802Z",
         "line": 79,
         "name": "5 Digits Function Tests 83691",
         "description": "",
@@ -7153,7 +7218,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1357000,
+              "duration": 808000,
               "status": "passed"
             },
             "line": 65,
@@ -7171,7 +7236,7 @@
           },
           {
             "result": {
-              "duration": 1337000,
+              "duration": 641000,
               "status": "passed"
             },
             "line": 66,
@@ -7190,18 +7255,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.452Z",
+        "start_timestamp": "2021-01-10T08:43:42.811Z",
         "line": 80,
         "name": "5 Digits Function Tests 99900",
         "description": "",
@@ -7211,7 +7279,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1039000,
+              "duration": 889000,
               "status": "passed"
             },
             "line": 65,
@@ -7229,7 +7297,7 @@
           },
           {
             "result": {
-              "duration": 1497000,
+              "duration": 802000,
               "status": "passed"
             },
             "line": 66,
@@ -7248,18 +7316,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT5"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.496Z",
+        "start_timestamp": "2021-01-10T08:43:42.847Z",
         "line": 90,
         "name": "6 Digits Function Tests 123456",
         "description": "",
@@ -7269,7 +7340,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3926000,
+              "duration": 868000,
               "status": "passed"
             },
             "line": 84,
@@ -7287,7 +7358,7 @@
           },
           {
             "result": {
-              "duration": 1011000,
+              "duration": 939000,
               "status": "passed"
             },
             "line": 85,
@@ -7306,18 +7377,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.548Z",
+        "start_timestamp": "2021-01-10T08:43:42.872Z",
         "line": 91,
         "name": "6 Digits Function Tests 987654",
         "description": "",
@@ -7327,7 +7401,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14491000,
+              "duration": 9973000,
               "status": "passed"
             },
             "line": 84,
@@ -7345,7 +7419,7 @@
           },
           {
             "result": {
-              "duration": 1489000,
+              "duration": 1759000,
               "status": "passed"
             },
             "line": 85,
@@ -7364,18 +7438,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.569Z",
+        "start_timestamp": "2021-01-10T08:43:42.895Z",
         "line": 92,
         "name": "6 Digits Function Tests 543210",
         "description": "",
@@ -7385,7 +7462,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1139000,
+              "duration": 775000,
               "status": "passed"
             },
             "line": 84,
@@ -7403,7 +7480,7 @@
           },
           {
             "result": {
-              "duration": 816000,
+              "duration": 723000,
               "status": "passed"
             },
             "line": 85,
@@ -7422,18 +7499,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.575Z",
+        "start_timestamp": "2021-01-10T08:43:42.902Z",
         "line": 93,
         "name": "6 Digits Function Tests 456123",
         "description": "",
@@ -7443,7 +7523,7 @@
         "steps": [
           {
             "result": {
-              "duration": 819000,
+              "duration": 10957000,
               "status": "passed"
             },
             "line": 84,
@@ -7461,7 +7541,7 @@
           },
           {
             "result": {
-              "duration": 794000,
+              "duration": 786000,
               "status": "passed"
             },
             "line": 85,
@@ -7480,18 +7560,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.582Z",
+        "start_timestamp": "2021-01-10T08:43:42.920Z",
         "line": 94,
         "name": "6 Digits Function Tests 135791",
         "description": "",
@@ -7501,7 +7584,7 @@
         "steps": [
           {
             "result": {
-              "duration": 41306000,
+              "duration": 963000,
               "status": "passed"
             },
             "line": 84,
@@ -7519,7 +7602,7 @@
           },
           {
             "result": {
-              "duration": 1906000,
+              "duration": 1190000,
               "status": "passed"
             },
             "line": 85,
@@ -7538,18 +7621,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.648Z",
+        "start_timestamp": "2021-01-10T08:43:42.926Z",
         "line": 95,
         "name": "6 Digits Function Tests 024688",
         "description": "",
@@ -7559,7 +7645,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1436000,
+              "duration": 744000,
               "status": "passed"
             },
             "line": 84,
@@ -7577,7 +7663,7 @@
           },
           {
             "result": {
-              "duration": 1013000,
+              "duration": 594000,
               "status": "passed"
             },
             "line": 85,
@@ -7596,18 +7682,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.660Z",
+        "start_timestamp": "2021-01-10T08:43:42.932Z",
         "line": 96,
         "name": "6 Digits Function Tests 677731",
         "description": "",
@@ -7617,7 +7706,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2530000,
+              "duration": 1293000,
               "status": "passed"
             },
             "line": 84,
@@ -7635,7 +7724,7 @@
           },
           {
             "result": {
-              "duration": 2543000,
+              "duration": 6448000,
               "status": "passed"
             },
             "line": 85,
@@ -7654,18 +7743,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.673Z",
+        "start_timestamp": "2021-01-10T08:43:42.954Z",
         "line": 97,
         "name": "6 Digits Function Tests 718820",
         "description": "",
@@ -7675,7 +7767,7 @@
         "steps": [
           {
             "result": {
-              "duration": 909000,
+              "duration": 849000,
               "status": "passed"
             },
             "line": 84,
@@ -7693,7 +7785,7 @@
           },
           {
             "result": {
-              "duration": 726000,
+              "duration": 672000,
               "status": "passed"
             },
             "line": 85,
@@ -7712,18 +7804,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.740Z",
+        "start_timestamp": "2021-01-10T08:43:42.963Z",
         "line": 98,
         "name": "6 Digits Function Tests 836919",
         "description": "",
@@ -7733,7 +7828,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10851000,
+              "duration": 1460000,
               "status": "passed"
             },
             "line": 84,
@@ -7751,7 +7846,7 @@
           },
           {
             "result": {
-              "duration": 1281000,
+              "duration": 3006000,
               "status": "passed"
             },
             "line": 85,
@@ -7770,18 +7865,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.760Z",
+        "start_timestamp": "2021-01-10T08:43:42.974Z",
         "line": 99,
         "name": "6 Digits Function Tests 999003",
         "description": "",
@@ -7791,7 +7889,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4956000,
+              "duration": 1211000,
               "status": "passed"
             },
             "line": 84,
@@ -7809,7 +7907,7 @@
           },
           {
             "result": {
-              "duration": 2059000,
+              "duration": 883000,
               "status": "passed"
             },
             "line": 85,
@@ -7828,18 +7926,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDT6"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.780Z",
+        "start_timestamp": "2021-01-10T08:43:42.981Z",
         "line": 110,
         "name": "Name Tests 8242428",
         "description": "",
@@ -7849,7 +7950,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1968000,
+              "duration": 2310000,
               "status": "passed"
             },
             "line": 104,
@@ -7867,7 +7968,7 @@
           },
           {
             "result": {
-              "duration": 2063000,
+              "duration": 1385000,
               "status": "passed"
             },
             "line": 105,
@@ -7886,18 +7987,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDTName"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.796Z",
+        "start_timestamp": "2021-01-10T08:43:42.993Z",
         "line": 111,
         "name": "Name Tests 342632",
         "description": "",
@@ -7907,7 +8011,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1310000,
+              "duration": 1075000,
               "status": "passed"
             },
             "line": 104,
@@ -7925,7 +8029,7 @@
           },
           {
             "result": {
-              "duration": 1521000,
+              "duration": 1126000,
               "status": "passed"
             },
             "line": 105,
@@ -7944,18 +8048,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDTName"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:29.831Z",
+        "start_timestamp": "2021-01-10T08:43:43.004Z",
         "line": 112,
         "name": "Name Tests 739385524",
         "description": "",
@@ -7965,7 +8072,7 @@
         "steps": [
           {
             "result": {
-              "duration": 114869000,
+              "duration": 24115000,
               "status": "passed"
             },
             "line": 104,
@@ -7983,7 +8090,7 @@
           },
           {
             "result": {
-              "duration": 146101000,
+              "duration": 25295000,
               "status": "passed"
             },
             "line": 105,
@@ -8002,18 +8109,21 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDTName"
+          },
+          {
+            "name": "@medium"
           }
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.097Z",
+        "start_timestamp": "2021-01-10T08:43:43.061Z",
         "line": 113,
         "name": "Name Tests 545462",
         "description": "",
@@ -8023,7 +8133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 974000,
+              "duration": 1046000,
               "status": "passed"
             },
             "line": 104,
@@ -8041,7 +8151,7 @@
           },
           {
             "result": {
-              "duration": 3324000,
+              "duration": 876000,
               "status": "passed"
             },
             "line": 105,
@@ -8060,13 +8170,16 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@moreThanTwo"
           },
           {
             "name": "@DDTName"
+          },
+          {
+            "name": "@medium"
           }
         ]
       }
@@ -8078,7 +8191,7 @@
     "uri": "file:src/test/resources/features/moreThanTwo.feature",
     "tags": [
       {
-        "name": "@TestAll",
+        "name": "@TestSuit",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -8087,6 +8200,1193 @@
       },
       {
         "name": "@moreThanTwo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-10T08:43:43.070Z",
+        "line": 5,
+        "name": "One digit test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;one-digit-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 703000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "digit number \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "List length should not contain \"A\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTOneDigit"
+          },
+          {
+            "name": "@low"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.110Z",
+        "line": 17,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 734000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1604000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.143Z",
+        "line": 18,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7999000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 673000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"A\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.157Z",
+        "line": 19,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 709000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.164Z",
+        "line": 20,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 615000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"D\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.169Z",
+        "line": 21,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 558000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 610000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"C\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"C\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.175Z",
+        "line": 22,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 712000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 637000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"G\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"G\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.181Z",
+        "line": 23,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 592000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 522000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"F\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"F\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.186Z",
+        "line": 24,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1453000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1223000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"J\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"J\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.197Z",
+        "line": 25,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 860000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 597000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"I\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.203Z",
+        "line": 26,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 582000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3896000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.215Z",
+        "line": 27,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 602000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 539000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"L\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"L\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.221Z",
+        "line": 28,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 629000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 554000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"P\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"P\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.226Z",
+        "line": 29,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 593000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"O\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"O\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.231Z",
+        "line": 30,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;15",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 629000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 596000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"T\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.238Z",
+        "line": 31,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;16",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3849000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2117000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"S\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.251Z",
+        "line": 32,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;17",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 628000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"W\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"W\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.260Z",
+        "line": 33,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;18",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1132000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 778000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"V\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"V\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-10T08:43:43.266Z",
+        "line": 34,
+        "name": "Different combinations test",
+        "description": "",
+        "id": "negative-test-of-dial-pad;different-combinations-test;;19",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3463000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "digit number \"9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9\"",
+                  "offset": 13
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.digit_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 555000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "List length should not contain \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 31
+                }
+              ],
+              "location": "dto.step_definitions.negativeTests.list_length_should_not_contain(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestSuit"
+          },
+          {
+            "name": "@negative"
+          },
+          {
+            "name": "@NTDDTest"
+          },
+          {
+            "name": "@medium"
+          }
+        ]
+      }
+    ],
+    "name": "Negative Test of Dial Pad",
+    "description": "",
+    "id": "negative-test-of-dial-pad",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/negativeTests.feature",
+    "tags": [
+      {
+        "name": "@TestSuit",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@negative",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -8099,7 +9399,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-09T19:30:30.113Z",
+        "start_timestamp": "2021-01-10T08:43:43.278Z",
         "line": 15,
         "name": "try one valid single digit 0",
         "description": "",
@@ -8109,7 +9409,7 @@
         "steps": [
           {
             "result": {
-              "duration": 785000,
+              "duration": 4853000,
               "status": "passed"
             },
             "line": 6,
@@ -8127,7 +9427,7 @@
           },
           {
             "result": {
-              "duration": 7623000,
+              "duration": 2687000,
               "status": "passed"
             },
             "line": 7,
@@ -8166,13 +9466,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8183,7 +9480,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.207Z",
+        "start_timestamp": "2021-01-10T08:43:43.310Z",
         "line": 16,
         "name": "try one valid single digit 1",
         "description": "",
@@ -8193,7 +9490,7 @@
         "steps": [
           {
             "result": {
-              "duration": 728000,
+              "duration": 653000,
               "status": "passed"
             },
             "line": 6,
@@ -8211,7 +9508,7 @@
           },
           {
             "result": {
-              "duration": 2088000,
+              "duration": 1228000,
               "status": "passed"
             },
             "line": 7,
@@ -8250,13 +9547,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8267,7 +9561,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.251Z",
+        "start_timestamp": "2021-01-10T08:43:43.325Z",
         "line": 17,
         "name": "try one valid single digit 2",
         "description": "",
@@ -8277,7 +9571,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5778000,
+              "duration": 834000,
               "status": "passed"
             },
             "line": 6,
@@ -8295,7 +9589,7 @@
           },
           {
             "result": {
-              "duration": 62077000,
+              "duration": 1483000,
               "status": "passed"
             },
             "line": 7,
@@ -8334,13 +9628,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8351,7 +9642,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.334Z",
+        "start_timestamp": "2021-01-10T08:43:43.335Z",
         "line": 18,
         "name": "try one valid single digit 3",
         "description": "",
@@ -8361,7 +9652,7 @@
         "steps": [
           {
             "result": {
-              "duration": 612000,
+              "duration": 2639000,
               "status": "passed"
             },
             "line": 6,
@@ -8379,7 +9670,7 @@
           },
           {
             "result": {
-              "duration": 1910000,
+              "duration": 1225000,
               "status": "passed"
             },
             "line": 7,
@@ -8418,13 +9709,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8435,7 +9723,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.344Z",
+        "start_timestamp": "2021-01-10T08:43:43.344Z",
         "line": 19,
         "name": "try one valid single digit 4",
         "description": "",
@@ -8445,7 +9733,7 @@
         "steps": [
           {
             "result": {
-              "duration": 859000,
+              "duration": 631000,
               "status": "passed"
             },
             "line": 6,
@@ -8463,7 +9751,7 @@
           },
           {
             "result": {
-              "duration": 1420000,
+              "duration": 1158000,
               "status": "passed"
             },
             "line": 7,
@@ -8502,13 +9790,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8519,7 +9804,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.352Z",
+        "start_timestamp": "2021-01-10T08:43:43.350Z",
         "line": 20,
         "name": "try one valid single digit 5",
         "description": "",
@@ -8529,7 +9814,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1025000,
+              "duration": 586000,
               "status": "passed"
             },
             "line": 6,
@@ -8547,7 +9832,7 @@
           },
           {
             "result": {
-              "duration": 3020000,
+              "duration": 1102000,
               "status": "passed"
             },
             "line": 7,
@@ -8586,13 +9871,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8603,7 +9885,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.360Z",
+        "start_timestamp": "2021-01-10T08:43:43.358Z",
         "line": 21,
         "name": "try one valid single digit 6",
         "description": "",
@@ -8613,7 +9895,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2228000,
+              "duration": 1544000,
               "status": "passed"
             },
             "line": 6,
@@ -8631,7 +9913,7 @@
           },
           {
             "result": {
-              "duration": 12354000,
+              "duration": 1657000,
               "status": "passed"
             },
             "line": 7,
@@ -8670,13 +9952,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8687,7 +9966,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.400Z",
+        "start_timestamp": "2021-01-10T08:43:43.367Z",
         "line": 22,
         "name": "try one valid single digit 7",
         "description": "",
@@ -8697,7 +9976,7 @@
         "steps": [
           {
             "result": {
-              "duration": 681000,
+              "duration": 643000,
               "status": "passed"
             },
             "line": 6,
@@ -8715,7 +9994,7 @@
           },
           {
             "result": {
-              "duration": 1191000,
+              "duration": 1262000,
               "status": "passed"
             },
             "line": 7,
@@ -8754,13 +10033,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8771,7 +10047,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.431Z",
+        "start_timestamp": "2021-01-10T08:43:43.379Z",
         "line": 23,
         "name": "try one valid single digit 8",
         "description": "",
@@ -8781,7 +10057,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1169000,
+              "duration": 819000,
               "status": "passed"
             },
             "line": 6,
@@ -8799,7 +10075,7 @@
           },
           {
             "result": {
-              "duration": 1515000,
+              "duration": 1258000,
               "status": "passed"
             },
             "line": 7,
@@ -8838,13 +10114,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8855,7 +10128,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.451Z",
+        "start_timestamp": "2021-01-10T08:43:43.386Z",
         "line": 24,
         "name": "try one valid single digit 9",
         "description": "",
@@ -8865,7 +10138,7 @@
         "steps": [
           {
             "result": {
-              "duration": 732000,
+              "duration": 3075000,
               "status": "passed"
             },
             "line": 6,
@@ -8883,7 +10156,7 @@
           },
           {
             "result": {
-              "duration": 3783000,
+              "duration": 1377000,
               "status": "passed"
             },
             "line": 7,
@@ -8922,13 +10195,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDDataDriven"
@@ -8939,7 +10209,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-09T19:30:30.465Z",
+        "start_timestamp": "2021-01-10T08:43:43.395Z",
         "line": 28,
         "name": "try one specific single digit",
         "description": "",
@@ -8949,7 +10219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4322000,
+              "duration": 1623000,
               "status": "passed"
             },
             "line": 29,
@@ -8967,7 +10237,7 @@
           },
           {
             "result": {
-              "duration": 1812000,
+              "duration": 9402000,
               "status": "passed"
             },
             "line": 30,
@@ -8997,13 +10267,10 @@
         ],
         "tags": [
           {
-            "name": "@TestAll"
+            "name": "@TestSuit"
           },
           {
             "name": "@SDAll"
-          },
-          {
-            "name": "@high"
           },
           {
             "name": "@SDSpecific"
@@ -9021,7 +10288,7 @@
     "uri": "file:src/test/resources/features/singleDigit.feature",
     "tags": [
       {
-        "name": "@TestAll",
+        "name": "@TestSuit",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -9033,15 +10300,7 @@
         "type": "Tag",
         "location": {
           "line": 1,
-          "column": 10
-        }
-      },
-      {
-        "name": "@high",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 17
+          "column": 11
         }
       }
     ]

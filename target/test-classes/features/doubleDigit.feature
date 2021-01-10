@@ -1,8 +1,8 @@
-@TestAll   @DDAll @high
+@TestSuit @DDAll
 
 Feature: Double Digit Function Test
 
-  @DDDataDriven
+  @DDDataDriven @high
   Scenario Outline: try one valid single digit "<str>"
     When the user enters double digit number "<str>"
     Then the user should see expected List for the double digit
